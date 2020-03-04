@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title>portfolio homepage</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+	<title>portfolio homepage</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
 <body>
 	<div class="black">
+		
 		<nav>
-			<div class="left">
+		<div class="wrapper wrapper-flex wrapper-flex-space-between">
+		
 				<img src="images/logo.png" class="logo" alt="Logo">
-			</div>
+		
 			<ul class="nav">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="project.html">Work</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="contact.html">Contact</a></li>
+			
+				<li><a href="index.html"><span>01</span> Home</a></li>
+				<li><a href="project.html"><span>02</span> Work</a></li>
+				<li><a href="about.html"><span>03</span> About</a></li>
+				<li><a href="contact.html"><span>04</span> Contact</a></li>
 			</ul>
+			
 		</nav>
-		<section class="lefthome">
-			<h1 class="hometitle">Hello My Name<br>is <span class="blueviolet-type">Jing Liang</span></h1>
-			<hr class="dashwhite">
-			<h3 class="hometitlesmall">I am a <span class="blueviolet-type">UI/UX</span>designer<br>based in <span class="blueviolet-type">Toronto,Canada.</span><br>
-			I focus on on <span class="blueviolet-type">beautiful<br>practical</span> solutions.</h3>
-		</section>
-		<section class="righthome">
-			<img src="images/jing.png" alt="Jing Liang">
-		</section>
+		
+		<div class="wrapper wrapper-flex">
+			<section class="lefthome">
+				<h1 class="hometitle">
+				<span>Hello </span><span>My Name is </span><span class="blueviolet-type">Jing Liang</span></h1>
+				<hr class="dashwhite">
+				<h3 class="hometitlesmall">I am a <span class="blueviolet-type">UI/UX </span>designer based in <span class="blueviolet-type">Toronto,Canada.</span>
+				I focus on on <span class="blueviolet-type">beautiful practical</span> solutions.</h3>
+			</section>
+			<section class="righthome">
+				<img src="images/jing.png" alt="Jing Liang">
+			</section>
+		</div>
+	
 	</div>
 	<div class="lightviolet">
 		<h3 class="hometitlesmall violet-type"> Work</h3>
@@ -38,9 +49,17 @@
 			project management features.<br>Each project is its own<br>ecosytem with files, messages<br> and tasks.
 			<button><span>View Casestudy</span></button>
 		</section>
+	
 		<section>
-			<img src="images/ipad-collab.png" alt="Ipad with collab app">
+			<!-- pay attention here --->
+			<img src="images/ipad.png" alt="Ipad with collab app"
+			srcset="images/ipad.png 780w,
+					images/mobile.png 360w"
+			sizes="(min-width:600px)780px,(max-width:599px)360px">
+			<!--end-->
+		
 		</section>
+			
 	</div>
 	<footer>
 		<h2>Connect!:</h2>
