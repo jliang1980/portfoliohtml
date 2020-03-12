@@ -11,20 +11,20 @@ max-width:100%;
 
 .device
 {
-background-repeat:none;
-width:100px;
-height:100px; 
+background-repeat:no-repeat;
+width:100%;
+height:100%; 
 }
 
-@media only screen and (min-width: 600px) { 
+@media only screen and (min-width:600px) { 
             .lg { 
-                background-image:url("images/ipad.png"); 
+                background-image:url("../images/ipad.png"); 
             } 
 } 
 
 @media only screen and (max-width: 599px) { 
             .lg { 
-                background-image:url("images/mobile.png"); 
+                background-image:url("../images/mobile.png"); 
             } 
 } 
 
@@ -230,7 +230,6 @@ color:white;
 padding:2rem 0;
 }
 
-@media(min-width:600px){
 	.worktitle{
 	font-family:Playfair Display;
 	text-align:center;
@@ -240,11 +239,12 @@ padding:2rem 0;
 	margin-bottom:2rem;
 	
 	}
-}
 
 
 
-@media(min-width:600px){
+
+
+@media(max-width:600px){
 	.hometitle{
 	text-align:left;
 	font-size:72px;
