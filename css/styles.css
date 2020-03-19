@@ -72,9 +72,11 @@ clear:left;
 color:#9999CC;
 }
 
+@media(min-width:600px){
 .left
 {
 float:left;
+}
 }
 
 .logo
@@ -91,6 +93,35 @@ margin:0;
 }
 }
 
+@media(max-width:599px){
+.projectlogo
+{
+display:block;
+max-width:110px;
+margin:0 auto;
+}
+}
+
+
+@media(min-width: 600px){
+.logo{
+max-width:150px;
+margin:0;
+}
+}
+.projectlogo
+{
+display:block;
+max-width:110px;
+margin:0 auto;
+}
+
+@media(min-width: 600px){
+.projectlogo{
+max-width:150px;
+margin:0;
+}
+}
 
 .centertitle
 {
@@ -99,6 +130,20 @@ text-align:center;
 font-size:36pt;
 color:#FFFFFF;
 }
+
+@media(max-width:599px){
+	
+.centertitle
+{
+font-family: Playfair Display;
+text-align:center;
+font-size:24pt;
+color:#FFFFFF;
+padding:2rem 0 0 0;
+
+}
+}
+
 
 .alignleft
 {
@@ -109,7 +154,8 @@ figcaption
 {
 font-family:Playfair Display;
 font-style:italic;
-font-size:14pt;
+font-size: 18px;
+line-height: 24px;
 color:#FFFFFF;
 text-align:left;
 }
@@ -124,14 +170,25 @@ display:none;
 border-bottom: 2px dashed #4D4D64;
 }
 
-.normal
+@media (max-width:599px){
+.violethr
 {
+display:none;
+}
+}
+
+@media(max-width:599px){
+.normal{
 font-family:Montserrat;
-font-size: 24px;
-line-height: 29px;
+font-size: 18px;
+line-height: 24px;
 color:#FFFFFF;
 text-align:center;
+padding-top:2rem;
+margin-left:-4rem;
+margin-right:-4rem;
 
+}
 }
 
 
@@ -139,7 +196,13 @@ text-align:center;
 @media(min-width:600px){
 .normal
 {
-
+font-family:Montserrat;
+font-size: 24px;
+line-height: 29px;
+color:#FFFFFF;
+text-align:center;
+margin-left:2rem;
+margin-right:2rem;
 text-align:left;
 
 }
@@ -322,13 +385,37 @@ color: #FFFFFF;
 }
 
 
-.middle
+.middlelogo
 {
-	margin-left: auto;
-  margin-right: auto;
-  display:block;
+margin-left: auto;
+margin-right: auto;
+display:block;
 
 }
+
+@media(max-width:599px){
+.middlelogo
+{
+margin-left: auto;
+margin-right: auto;
+display:block;
+width:125px;
+height:125px;
+}
+}
+
+
+@media(min-width:600px){
+.chart
+{
+margin-left: auto;
+margin-right: auto;
+display:block;
+}
+}
+
+
+
 
 .title
 {
@@ -337,6 +424,21 @@ text-align:center;
 font-size:18pt;
 color:#FFFFFF;
 }
+
+@media (max-width:599px){
+.title
+{
+font-family:Montserrat;
+text-align:center;
+font-size:24px;
+color:#FFFFFF;
+text-transform:uppercase;
+font-weight:bold;
+padding-top:4rem;
+
+}
+}
+
 
 .floattext
 {
@@ -362,7 +464,7 @@ color:#4D4D64;
 
 .roundrectangle
 {
-display:inline;
+display:block;
 margin:0 auto;
 background-color:#4D4D64;
 border-radius:10px;
@@ -402,6 +504,13 @@ tr:nth-child(odd)
 {
 color:#FFFFFF;
 }
+
+@media (max-width:599px){
+.white{
+display:none;
+}
+}
+
 
 .col33
 {
