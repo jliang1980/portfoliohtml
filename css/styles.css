@@ -52,14 +52,14 @@ padding:25px;
 .violet
 {
 background-color:#4D4D64;
-padding:100px;
+padding:50px;
 }
 
 .lightviolet
 {
 background-color:#EEEEF6;
-padding:100px;
-clear:left;
+padding:50px;
+
 }
 
 
@@ -149,8 +149,7 @@ color:#FFFFFF;
 text-align:center;
 padding-top:2rem;
 padding-bottom:2rem;
-margin-left:-4rem;
-margin-right:-4rem;
+
 
 }
 
@@ -344,8 +343,7 @@ color:#4D4D64;
 
 .roundrectangle
 {
-margin:0 auto;
-width:300px; 
+margin:0 auto; 
 background-color:#4D4D64;
 border-radius:10px;
 padding:2rem;
@@ -361,15 +359,17 @@ table
 {
 border-collapse:collapse;
 width:70%;
-margin:auto;
+margin-bottom:2rem;
+
+
 }
 
 td
 {
 padding:10px;
 font-family:Montserrat;
-text-align:left;
-font-size:14pt;
+text-align:center;
+font-size:0.8rem;
 color:#4D4D64;
 line-height:1.5;
 width:25%;
@@ -407,37 +407,54 @@ padding-top:2rem;
 
 .img-bottom
 {
-padding-bottom:2rem ; 
+padding-bottom:2rem ;
+
 
 }
 
 .img-top
 {
 padding-top:2rem;
+
 }
 
 footer
 {
 
-padding:100px;
+padding:50px;
 }
 
 .social 
 {
-display:inline-block;
-padding-left:10px;
+display:inline;
+
 }
 
 ul .social
 {
 margin:0 auto;
 
+
 }
 
-a .center
+a 
+{
+text-decoration:none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+text-align: center;
+color:black;
+padding-bottom:2rem;
+
+}
+
+
+
+.center
 {
 
 margin:0 auto;
-color:red;
-
+display:block;
 }
