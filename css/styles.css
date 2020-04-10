@@ -29,7 +29,7 @@ height:425px;
 .lg { 
 background-image:url("../images/ipad.png"); 
 background-size:contain;
-height:700px;
+height:500px;
 margin-left:75px;
 
 } 
@@ -69,12 +69,14 @@ background-color:#4D4D64;
 padding:50px;
 }
 
-@media(min-width:600px)
+
+
+@media(min-width:1024px)
 {
 .violet
 {
 background-color:#4D4D64;
-padding:250px;
+padding:5% 30% 0% 30%;
 }
 }
 
@@ -135,7 +137,7 @@ margin:0 auto;
 @media(min-width: 600px){
 .projectlogo{
 max-width:150px;
-margin:0;
+margin:0 auto;
 }
 }
 
@@ -180,7 +182,7 @@ font-size: 18px;
 line-height: 24px;
 color:#FFFFFF;
 text-align:left;
-padding:-50 0 2rem 0;
+margin:30px 0 2rem 0;
 }
 
 .dashwhite{
@@ -336,12 +338,11 @@ margin:0 auto;
 display:flex;
 }
 
-.wrapper-flex2 section{
-	width:50%;
+.lefthome 
+{
+width:100%;
 }
-
 }
-
 
 
 @media(min-width:600px){
