@@ -38,6 +38,21 @@ margin-left:75px;
 
 
 
+@media(min-width:600px) { 
+.button
+{
+width: 16rem;
+background:#696988;
+border-radius: 10px;
+color: white;
+font-family:Montserrat;
+font-size:16px;
+text-decoration:none;
+display:inline-block;
+text-align:center;
+padding:1rem 0 10rem 0;
+margin:2rem 0 0 10rem; 
+}
 
 
 
@@ -45,7 +60,7 @@ margin-left:75px;
 .button
 {
 width: 16rem;
-background: #4D4D64;
+background:#696988;
 border-radius: 10px;
 color: white;
 font-family:Montserrat;
@@ -54,7 +69,7 @@ text-decoration:none;
 display:inline-block;
 text-align:center;
 padding:1rem 0 1rem 0; 
-margin-top:2rem;
+margin:2rem 0 0 4rem;
 }
 
 .black
@@ -76,7 +91,7 @@ padding:50px;
 .violet
 {
 background-color:#4D4D64;
-padding:5% 30% 0% 30%;
+padding:5% 25% 5% 25%;
 }
 }
 
@@ -85,6 +100,15 @@ padding:5% 30% 0% 30%;
 background-color:#EEEEF6;
 padding:50px;
 
+}
+
+@media(min-width:1024px)
+{
+.lightviolet
+{
+background-color:#EEEEF6;
+padding:5% 25% 5% 25%;
+}
 }
 
 .padding-50
@@ -158,7 +182,7 @@ padding:2rem 0 0 0;
 
 }
 
-@media(min-width: 600px){
+
 .centertitle
 {
 font-family: Playfair Display;
@@ -182,8 +206,20 @@ font-size: 18px;
 line-height: 24px;
 color:#FFFFFF;
 text-align:left;
-margin:30px 0 2rem 0;
+margin:2rem 0 2rem 2rem;
 }
+
+@media(min-width: 600px){
+figcaption
+{
+margin:2rem 0 2rem 2rem;
+}
+}
+
+
+
+
+
 
 .dashwhite{
 display:none;
@@ -193,21 +229,23 @@ display:none;
 
 
 
-.violethr
+.projecthr
 {
 display:none;
 }
 
 @media(min-width:600px){
-.violethr
+.projecthr
 {
-border-bottom: 2px dashed #4D4D64;
+border-bottom:2px dashed #4D4D64;
+margin-top:2rem;
+
 }
 }
 
 .normal{
 font-family:Montserrat;
-font-size: 18px;
+font-size: 16px;
 line-height: 24px;
 color:#FFFFFF;
 text-align:center;
@@ -221,7 +259,7 @@ padding-bottom:2rem;
 .normal
 {
 font-family:Montserrat;
-font-size: 24px;
+font-size: 18px;
 line-height: 29px;
 color:#FFFFFF;
 text-align:center;
@@ -346,6 +384,11 @@ width:100%;
 
 
 @media(min-width:600px){
+	
+	.righthome{
+	width:70%;
+	}
+	
 	.wrapper-flex
 	{
 	display:flex;
@@ -461,7 +504,7 @@ font-size:24px;
 color:#FFFFFF;
 text-transform:uppercase;
 font-weight:bold;
-padding-top:2rem;
+padding-top:4rem;
 padding-bottom:2rem;
 
 }
@@ -506,7 +549,7 @@ margin:0 auto;
 background-color:#4D4D64;
 border-radius:10px;
 padding:2rem;
-
+width:70%;
 }
 
 table, th, td
@@ -517,11 +560,12 @@ border:1px solid #EEEEF6;
 table
 {
 border-collapse:collapse;
-width:70%;
+width:100%;
 margin-bottom:2rem;
 
 
 }
+
 
 td
 {
@@ -533,6 +577,8 @@ color:#4D4D64;
 line-height:1.5;
 width:25%;
 }
+
+
 
 tr:nth-child(even) 
 {background-color:white;}
@@ -569,18 +615,41 @@ line-height:1.5;
 padding-top:2rem;
 }
 
+Robert is a web project manager for a Fortune 500 company. His team includes remote workers from halfway around the world. He is interested in real-time co-authoring tools but only if it is not laggy and only if it shows who is authoring what on the screen. He would like an in-app messaging tool as well.
+
+
+
 .img-bottom
 {
-padding-bottom:2rem ;
+padding:2rem;
 
+}
 
+@media(min-width:600px)
+{
+.img-bottom
+{
+padding:2rem;
+float:left; 
+
+}
 }
 
 .img-top
 {
-padding-top:2rem;
-
+padding:2rem;
 }
+
+@media(min-width:600px)
+{
+.img-top
+{
+padding:2rem;
+float:right;
+}
+}
+
+
 
 footer
 {
