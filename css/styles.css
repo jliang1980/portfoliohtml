@@ -666,20 +666,19 @@ font-family: Montserrat;
 font-style: italic;
 font-weight: normal;
 font-size: 18px;
+line-height:32px;
 color:#FFFFFF;
-float:left;
+padding:1rem;
 }
 
 .pullquote
 {
-float:left;
-padding:2rem;
+display:flex;
+padding:1rem;
 }
 
-.inline
-{
-display:inline;
-}
+
+
 
 
 footer
