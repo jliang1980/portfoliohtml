@@ -190,6 +190,13 @@ margin:0 auto;
 }
 
 
+.personallogo{
+display:block;
+max-width:200px;
+margin:0 auto;
+margin-top:2rem;
+
+}
 
 
 
@@ -278,11 +285,22 @@ font-family:Montserrat;
 font-size: 18px;
 line-height: 29px;
 color:#FFFFFF;
-text-align:center;
-margin-left:2rem;
-margin-right:2rem;
 text-align:left;
 
+}
+}
+
+@media(min-width:1024px){
+.normal
+{
+font-family:Montserrat;
+font-size: 18px;
+line-height: 29px;
+color:#FFFFFF;
+text-align:center;
+margin-left:1rem;
+margin-right:1rem;
+text-align:left;
 }
 }
 
