@@ -70,7 +70,6 @@ padding:25px;
 {
 background-color:#1C1C26;
 padding:0% 25% 0% 25%;
-border:1px solid red;
 }
 
 
@@ -170,8 +169,7 @@ text-align:left;
 
 figcaption
 {
-font-family:Playfair Display;
-font-style:italic;
+font-family:Montserrat;
 font-size: 18px;
 line-height: 24px;
 color:#FFFFFF;
@@ -253,11 +251,7 @@ padding:1rem 0;
 
 }
 
-.smaller
-{
-font-size: 18px;font-size: 24px;
-line-height: 29px;
-}
+
 
 
 	.worktitle{
@@ -402,12 +396,7 @@ color:#FFFFFF;
 line-height:1.5;
 }
 
-.60
-{
-margin:auto;
-width:60%;
-border:1px solid red;
-}
+
 
 
 .violet-type
@@ -559,11 +548,45 @@ margin:0 auto;
 display:block;
 } 
 
-@media(min-width:600px) { 
+@media(min-width:600px) 
+{
+
+
+
+
+.center
+{
+
+margin:0 auto;
+display:block;
+} 
+
+.violet
+{
+background-color:#4D4D64;
+padding:200px;
+}
+
+
+
+
+.lightviolet
+{
+background-color:#EEEEF6;
+padding:50px;
+
+}
+
+.violet-type
+{
+color:#4D4D64;
+}
+
 .lg { 
 background-image:url("../images/ipad.png"); 
 background-size:contain;
-height:400px;
+height:500px;
+width:500px;
 margin-left:75px;
 
 } 
@@ -583,15 +606,17 @@ padding:1rem;
 margin-top:2rem;
 }
 
+
+
 .black
 {
-padding:5%;
+padding:5% 5% 0px 5%;
 }
 
 
 .blackabout
 {
-padding:5% 25% 5% 25%;
+padding:0px 25% 5% 25%;
 
 }
 
@@ -611,7 +636,10 @@ margin:0 auto;
 
 figcaption
 {
-margin:2rem 0 2rem 2rem;
+margin:2rem 0 2rem 0;
+font-family:Montserrat;
+font-size:24px;
+line-height:29px;
 }
 
 
@@ -630,7 +658,20 @@ font-size: 18px;
 line-height: 29px;
 color:#FFFFFF;
 text-align:left;
+}
 
+
+.title
+{
+font-family:Montserrat;
+text-align:center;
+font-size:18pt;
+color:#FFFFFF;
+}
+
+.violet-type
+{
+color:#4D4D64;
 }
 
 .width
@@ -652,6 +693,7 @@ padding-right:4rem;
 
 
 
+
 	.hometitlesmall{
 	text-align:left;
 	font-family: Montserrat;
@@ -659,6 +701,10 @@ padding-right:4rem;
 	line-height: 44px;
 }
 
+.smaller{
+font-size: 24px;
+line-height: 29px;
+}
 
 	
 	.lefthome{
@@ -702,13 +748,6 @@ display:block;
 
 
 
-.title
-{
-font-family:Montserrat;
-text-align:center;
-font-size:18pt;
-color:#FFFFFF;
-}
 
 
 
@@ -752,16 +791,30 @@ margin-top:2rem;
 max-width:1200px;
 margin:0 auto;
 }
-}
 
 
-@media(min-width:1024px){
+
 .wrapper-flex2{
 display:flex;
 }
 
 .wrapper-flex2 section{
 	width:100%;
+
+}
+
+.violet
+{
+background-color:#4D4D64;
+padding:5% 25% 5% 25%;
+}
+
+
+
+.lightviolet
+{
+background-color:#EEEEF6;
+padding:5% 25% 5% 25%;
 }
 
 }
