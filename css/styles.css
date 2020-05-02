@@ -511,13 +511,11 @@ text-align: center
 
 
 .bottomlefthome{
-	width:80%;
-	border:1px solid blue;
+	width:60%;
 }
 
 .bottomrighthome{
-	width:20%;
-	border:1px solid red;
+	width:40%;
 }
 
 
@@ -587,10 +585,22 @@ text-align: center
 	margin-top:2rem;
  }
 
+.bottomlefthome{
+	flex:2;
+}
+
 }
 
 @media(min-width:1024px){
 	
+
+
+.bottomlefthome{
+	flex:2;
+}
+
+
+
  .lg { 
 	background-image:url("../images/ipad.png"); 
 	background-size:contain;
