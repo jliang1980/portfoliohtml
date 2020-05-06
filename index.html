@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>portfolio homepage</title>
-      <link rel="stylesheet" type="text/css" href="css/reset.css">
+	  <title>portfolio homepage</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" type="text/css" href="css/reset.css">
       <link rel="stylesheet" type="text/css" href="css/styles.css">
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	  <script>
+	  function myFunction() {
+		var x = document.getElementById("myLinks");
+		if (x.style.display === "block") {
+		x.style.display = "none";
+		} else {
+			x.style.display = "block";
+		}
+		}
+	  </script>
    </head>
    <body>
-	<!--start wrapper here -->           
+	<!--start wrapper here -->
+	
       <div class="black">
       <nav>
          <div class="wrapper wrapper-flex wrapper-flex-space-between">
-            <a href="index.html"><img src="images/logo.png" class="logo" alt="Logo"></a>
+			<a href="index.html"><img src="images/logo.png" class="logo" alt="Logo"></a>
+
             <ul class="nav">
+				
                <li><a href="index.html"><span>01</span> Home</a></li>
                <li><a href="project.html"><span>02</span> Work</a></li>
                <li><a href="about.html"><span>03</span> About</a></li>
                <li><a href="contact.html"><span>04</span> Contact</a></li>
             </ul>
+				<div class="topnav">
+				  <a href="#home" class="active"></a>
+
+  <!-- Navigation links (hidden by default) -->
+						<div id="myLinks">
+							<a href="#news">News</a>
+							<a href="#contact">Contact</a>
+							<a href="#about">About</a>
+						</div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+				</a>
+			</div>
       </div>
 	  <!--end wrapper-->
 	 </nav>
@@ -30,7 +58,7 @@
 			<hr class="dashwhite">
 			<h3 class="hometitlesmall">I am a <span class="blueviolet-type">UI/UX </span>designer based in <span class="blueviolet-type">Toronto,Canada.</span>
 			I focus on on <span class="blueviolet-type">beautiful practical</span> solutions.</h3>
-			<a href="project.html" class="button center">View Work</a>
+			<a href="project.html" class="button center margin-bottom">View Work</a>
 
 		</section>
 		<section class="righthome ">
