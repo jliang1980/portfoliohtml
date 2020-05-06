@@ -457,6 +457,11 @@ display:none;
 
 {
 
+.topnav a {
+  display:none;
+}
+
+
 
 .img-bottom	{
 	padding:2rem;
