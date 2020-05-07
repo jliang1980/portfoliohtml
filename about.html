@@ -3,24 +3,57 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/styles.css">
-		<title>collab casestudy</title>
+		<title>Biography</title>
+		<script>
+	  function myFunction() {
+		var x = document.getElementById("myLinks");
+		if (x.style.display === "block") {
+		x.style.display = "none";
+		} else {
+			x.style.display = "block";
+		}
+		}
+	  </script>
 	</head>
 	<body>
 	<!--start wrapper here --> 
 		<div class="black">
-		<nav>
-         <div class="wrapper wrapper-flex wrapper-flex-space-between">
-            <a href="index.html"><img src="images/logo.png" class="logo" alt="Logo"></a>
+      <nav>
+
+	         <div class="wrapper wrapper-flex wrapper-flex-space-between">
+			 <div class="wrapper3 wrapper-flex3 wrapper-flex-space-between">
+	<a href="index.html"><img src="images/logo.png" class="logo right" alt="Logo"></a>
+			<div class="topnav">
+						<a href="index.html"></a>
+
+  <!-- Navigation links (hidden by default) -->
+						<div id="myLinks">
+							<a href="index.html">Home</a>
+							<a href="project.html">Work</a>
+							<a href="about.html">About</a>
+							<a href="contact.html">Contact</a>
+						</div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+				<i class="fa fa-bars"></i>
+				</a>
+			</div>
+			</div>
+			
+
             <ul class="nav">
+				
                <li><a href="index.html"><span>01</span> Home</a></li>
-               <li><a href="project.html"><span>02</span> Work</a></li>
+               <li><a href="project.html"><span>02</span>Work</a></li>
                <li><a href="about.html"><span>03</span> About</a></li>
-               <li><a href="contact.html"><span>04</span> Contact</a></li>
+               <li><a href="contact.html"><span>04</span> Contact</a></li> 
             </ul>
+				
       </div>
-	   </nav>
-	  </div>
+	  <!--end wrapper-->
+	 </nav>
 			<div class="blackabout">
 	  		<h2 class="centertitle">Biography</h2>
 			<img src="images/jingcircle.png" class="personallogo">
@@ -45,26 +78,24 @@
 
 			From my formative experiences sparked my interest in design, to my education and working with clients, I have learnt the process of research, empathizing with the user, and distilling  problems and stories. I am ready to craft well-informed user experiences for your team! 
 			</p>
-
-			
 		</div>
 		<footer>
-		<div class="center">
+	  <div class="center">
 			<p class="connect">Connect!</p>
-		</div>
-		<div class="wrapper wrapper-flex">
-			<section class="bottomlefthome">
-				<a class="email" href="mailto:jingliang0503@gmail.com">jingliang0503@gmail.com</a>
-			</section>
-			<section class="bottomrighthome">
-				<ul class="social">
-					<li class="social"> <a href="https://www.linkedin.com/in/jingliang01/"><img src="images/linkedin.png" alt="Linkedin"></a></li>
-					<li class="social"><a href="https://www.facebook.com/jing.liang1"><img src="images/facebook.png" alt="Facebook"></a></li>
-					<li class="social"> <a href="https://github.com/jliang1980"><img src="images/github.png" alt="github"></a></li>
-				</ul>
-			</section>
-		</div>
-		</footer>
+	 </div>
+	 <div class="wrapper wrapper-flex">
+		<section class="bottomlefthome">
+			<a class="email" href="mailto:jingliang0503@gmail.com">jingliang0503@gmail.com</a>
+		</section>
+		<section class="bottomrighthome">
+			<ul class="social">
+				<li class="social"> <a href="https://www.linkedin.com/in/jingliang01/"><img src="images/linkedin.png" alt="Linkedin"></a></li>
+				<li class="social"><a href="https://www.facebook.com/jing.liang1"><img src="images/facebook.png" alt="Facebook"></a></li>
+				<li class="social"> <a href="https://github.com/jliang1980"><img src="images/github.png" alt="github"></a></li>
+			</ul>
+		</section>
+	</div>
+	</footer>
 		
 		
 	</body>
