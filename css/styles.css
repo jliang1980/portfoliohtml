@@ -54,8 +54,7 @@ img {
 
 .blackabout	{
 	background-color:#1C1C26;
-	padding:0% 25% 0% 25%;
-}
+	padding:50px;}
 
 
 
@@ -470,7 +469,7 @@ display:none;
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 24px;
+	font-size: 21px;
 	line-height: 29px;
 	text-align: center
 }   
@@ -480,9 +479,22 @@ table	{
 }
 
 
+.bottomlefthome {
+	text-align:center;
+	
+	}
+
+.bottomrighthome {
+	text-align:center;
+	}
+
 @media(min-width:600px) 
 
 {
+
+.competitive	{
+	display:none;
+}
 
 table, th, td	{
 	border:1px solid #EEEEF6;
@@ -492,6 +504,7 @@ table	{
 	border-collapse:collapse;
 	width:100%;
 	margin-bottom:2rem;
+	display:block;
 }
 
 
@@ -747,6 +760,7 @@ margin:0;
 
 
 .bottomlefthome{
+	text-align:left;
 	flex:2;
 }
 
