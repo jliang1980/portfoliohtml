@@ -4,15 +4,20 @@
 
 img {
 	max-width:100%;
-}
+	}
 
 aside	{
 	display:none;
 }
 
+.centerlogo {
+	margin:0 auto;
+	padding-left:23px;
+}
+
 
 .bottom {
-margin-bottom:5px;
+	margin-bottom:5px;
 }
 
 .img-large {
@@ -94,7 +99,6 @@ margin-bottom:5px;
 .logo {
 	display:block;
 	max-width:150px;
-	margin-left:-100px;
 }
 
 .projectlogo {
@@ -363,11 +367,6 @@ blockquote	{
 }
 
 
-.pullquote	{
-	display:flex;
-	padding:1rem;
-	
-}
 
 
 footer	{
@@ -421,6 +420,7 @@ display:none;
 	padding:1rem;
 	margin-top:2rem;
 	font-size:16px;
+	margin-bottom:25px;
  }
 
 /* Style the navigation menu */
@@ -499,9 +499,23 @@ table	{
 	text-align:center;
 	}
 
+
+
 @media(min-width:600px) 
 
 {
+
+
+	
+.logo {
+	margin-right:600px;
+}
+
+.pullquote	{
+	display:flex;
+	padding:1rem;
+	
+}
 
 .competitive	{
 	display:none;
@@ -538,10 +552,6 @@ tr	{
 
 
 
-.right {
-	padding-right:100px;
-	
-}
 
 .topnav a {
 	display:none;
