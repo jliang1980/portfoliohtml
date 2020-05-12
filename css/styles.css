@@ -505,7 +505,9 @@ table	{
 
 {
 
-
+.centerlogo {
+	max-width:600px;
+}
 	
 .logo {
 	margin-right:800px;
