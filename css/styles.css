@@ -508,7 +508,7 @@ table	{
 
 	
 .logo {
-	margin-right:600px;
+	margin-right:800px;
 }
 
 .pullquote	{
@@ -626,7 +626,6 @@ tr	{
 
 .logo {
 max-width:150px;
-margin-left:100px;
 }
 
 
@@ -701,6 +700,7 @@ margin-left:100px;
  .smaller {
 	font-size: 24px;
 	line-height: 29px;
+	padding-top:20px;
  }
 
 .lg { 
