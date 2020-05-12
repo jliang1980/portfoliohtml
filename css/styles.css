@@ -2,11 +2,18 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap');
 
 
-
 img {
 	max-width:100%;
 }
 
+aside	{
+	display:none;
+}
+
+
+.bottom {
+margin-bottom:5px;
+}
 
 .img-large {
 	align-self: flex-start;
@@ -52,6 +59,7 @@ img {
 }
 
 
+
 .blackabout	{
 	background-color:#1C1C26;
 	padding:50px;}
@@ -86,7 +94,7 @@ img {
 .logo {
 	display:block;
 	max-width:150px;
-	margin:0 auto;
+	margin-left:-100px;
 }
 
 .projectlogo {
@@ -358,6 +366,7 @@ blockquote	{
 .pullquote	{
 	display:flex;
 	padding:1rem;
+	
 }
 
 
@@ -371,6 +380,8 @@ footer	{
 
 ul .social	{
 	margin:0 auto;
+	padding-top:10px;
+	padding-left:10px;
 }
 
 li.signup{
@@ -457,7 +468,7 @@ display:none;
 
 
 .margin-bottom	{
-	margin-bottom:2rem;
+	margin-bottom:10px;
 
 }
 
@@ -470,8 +481,8 @@ display:none;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 21px;
-	line-height: 29px;
-	text-align: center
+	line-height: 36px;
+	padding-bottom:10px;
 }   
 
 table	{
@@ -528,7 +539,7 @@ tr	{
 
 
 .right {
-	padding-right:450px;
+	padding-right:100px;
 	
 }
 
@@ -605,7 +616,7 @@ tr	{
 
 .logo {
 max-width:150px;
-margin:0;
+margin-left:100px;
 }
 
 
