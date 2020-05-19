@@ -47,6 +47,7 @@ aside	{
 	text-decoration:none;
 	padding:1rem 0 1rem 0; 
 	margin:2rem 0 0 0;
+	display:block;
 }
 
 .dropcap { 
@@ -62,6 +63,8 @@ aside	{
 	background-color:#1C1C26;
 	padding:25px;
 }
+
+
 
 
 
@@ -126,8 +129,9 @@ aside	{
 	padding-top:2rem;
 }
 
-.bottom{
-	padding-bottom:2rem;
+.topbottom{
+	padding-top:2rem;
+	padding-bottom:3rem;
 }
 
 .alignleft	{
@@ -217,8 +221,8 @@ figcaption
 	font-family:Playfair Display;
 	font-style: normal;
 	text-align:center;
-	font-size:72px;
-	line-height:96px;
+	font-size:56px;
+	line-height:72px;
 	margin-top:2rem;
 	padding-bottom:4rem;
 	margin-bottom:2rem;
@@ -349,7 +353,6 @@ tr	{
 	font-size:14pt;
 	color:#FFFFFF;
 	line-height:1.5;
-	padding-top:2rem;
 }
 
 
@@ -421,6 +424,7 @@ display:none;
 	margin-top:2rem;
 	font-size:16px;
 	margin-bottom:25px;
+	display:block;
  }
 
 /* Style the navigation menu */
@@ -505,8 +509,13 @@ table	{
 
 {
 
+.bottom {
+background-color:#1C1C26;
+padding-bottom:100px;
+}
+
 .centerlogo {
-	max-width:600px;
+	max-width:330px;
 }
 	
 .logo {
@@ -610,7 +619,7 @@ tr	{
 	background-image:url("../images/ipad.png"); 
 	background-size:contain;
 	height:300px;
-	width:400px;
+	max-width:400px;
  } 
 
 
@@ -623,7 +632,7 @@ tr	{
 
 
  .blackabout {
-	padding:0px 25% 5% 25%;
+	padding:0px 15% 5% 15%;
  }
 
 .logo {
@@ -639,7 +648,7 @@ max-width:150px;
 
 
  figcaption {
-	margin:2rem 0 2rem 0;
+	margin-bottom:2rem;
 	font-family:Montserrat;
 	font-size:24px;
 	line-height:29px;
@@ -720,6 +729,8 @@ max-width:150px;
 
  .wrapper-flex2 {
 	display:flex;
+	align-items:center;
+	flex-direction:column;
  }
 
  .wrapper-flex2 section {
@@ -798,7 +809,12 @@ max-width:150px;
 
  .lightviolet {
 	background-color:#EEEEF6;
-	padding:5% 25% 5% 25%;
+	padding:5% 5% 5% 5%;
+ }
+ 
+ 
+ .blackabout {
+	padding:0px 25% 5% 25%;
  }
 
 }
