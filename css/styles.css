@@ -163,7 +163,7 @@ figcaption
 }
 
 
-.center	{
+.centre	{
 	text-align:center;
 }
 
@@ -402,7 +402,7 @@ a	{
 
 .center {
 	margin:0 auto;
-	display:block;
+
 } 
 
 .connect{
@@ -653,11 +653,12 @@ max-width:150px;
 
 
  figcaption {
-	margin-bottom:2rem;
 	font-family:Montserrat;
 	font-size:24px;
 	line-height:29px;
- }
+	margin:20px 15% 0px 15%;
+	
+	}
 
 
 
@@ -693,10 +694,16 @@ max-width:150px;
  .lefthome {
 	padding-right:4rem;
 	width:50%;
+	flex:1;
  }
 
+.righthome{
+	width:100%;
+	flex:2;
+}
 
-
+	
+	
 
 
 
@@ -722,8 +729,9 @@ max-width:150px;
 .lg { 
 	background-image:url("../images/ipad.png"); 
 	background-size:contain;
-	height:400px;
-	width:500px;
+	max-width:500px;
+	margin:0 auto;
+
  } 
 	
 	
