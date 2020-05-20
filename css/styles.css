@@ -86,9 +86,7 @@ aside	{
 }
 
 
-.padding-50	{
-	padding:5px;
-}
+
 
 .padding-250 {
 	padding:250px;
@@ -209,10 +207,10 @@ figcaption
 .worktitle {
 	font-family:Playfair Display;
 	text-align:center;
-	font-size:72px;
-	line-height:96px;
-	padding-bottom:4rem;
-	margin-bottom:2rem;
+	font-size:56px;
+	line-height:72px;
+	padding-bottom:2rem;
+	
 }
 
 
@@ -427,6 +425,10 @@ display:none;
 	display:block;
  }
 
+.button {
+ margin:0 auto;
+}
+
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -503,7 +505,10 @@ table	{
 	text-align:center;
 	}
 
-
+.lightviolet2 {
+	background-color:#EEEEF6;
+	padding:5%;
+  }
 
 @media(min-width:600px) 
 
@@ -515,7 +520,7 @@ padding-bottom:100px;
 }
 
 .centerlogo {
-	max-width:330px;
+	max-width:300px;
 }
 	
 .logo {
@@ -787,6 +792,10 @@ max-width:150px;
 	flex:2;
 }
 
+.button{
+	display:block;
+	margin:0 0 0 0px;
+
 }
 
 @media(min-width:1024px){
@@ -809,9 +818,10 @@ max-width:150px;
 
  .lightviolet {
 	background-color:#EEEEF6;
-	padding:5% 5% 5% 5%;
+	padding:5% 25% 5% 25%;
  }
  
+  
  
  .blackabout {
 	padding:0px 25% 5% 25%;
