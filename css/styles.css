@@ -45,7 +45,6 @@ aside	{
 	font-family:Montserrat;
 	font-size:16px;	
 	text-decoration:none;
-	padding:1rem 0 1rem 0; 
 	margin:2rem 0 0 0;
 	display:block;
 }
@@ -70,7 +69,8 @@ aside	{
 
 .blackabout	{
 	background-color:#1C1C26;
-	padding:50px;}
+	padding:25px;
+	}
 
 
 
@@ -99,7 +99,7 @@ aside	{
 
 .logo {
 	display:block;
-	max-width:150px;
+	max-width:100px;
 }
 
 .projectlogo {
@@ -176,7 +176,6 @@ figcaption
 
 .wrapper3 {
 	max-width:1200px;
-	margin:0 auto;
 }
 
  .wrapper-flex3 {
@@ -376,7 +375,14 @@ footer	{
 
 .social {
 	display:inline;
+	
 }
+
+.socialimg{
+	width:50px;
+	height:50px;
+}
+
 
 ul .social	{
 	margin:0 auto;
@@ -403,6 +409,7 @@ a	{
 .center {
 	margin:0 auto;
 
+
 } 
 
 .connect{
@@ -425,7 +432,7 @@ display:none;
 	display:block;
  }
 
-.button {
+.center {
  margin:0 auto;
 }
 
@@ -487,8 +494,7 @@ display:none;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 21px;
-	line-height: 36px;
-	padding-bottom:10px;
+	line-height:64px;
 }   
 
 table	{
@@ -524,7 +530,7 @@ padding-bottom:100px;
 }
 	
 .logo {
-	margin-right:800px;
+	margin-right:1200px;
 }
 
 .pullquote	{
@@ -602,13 +608,15 @@ tr	{
 	padding-bottom:2rem;
 }	
 
+ 
+ 
  .center {
    margin:0 auto;
    } 
 
  .violet {
 	background-color:#4D4D64;
-	padding:200px;
+	padding:50px;
  }
  
  .lightviolet {
@@ -620,19 +628,8 @@ tr	{
 	color:#4D4D64;
  }
 
- .lg { 
-	background-image:url("../images/ipad.png"); 
-	background-size:contain;
-	height:300px;
-	max-width:400px;
- } 
-
-
-
-
-
  .black {
-	padding:5% 5% 0px 5%;
+	padding:5% 
  }
 
 
@@ -654,9 +651,9 @@ max-width:150px;
 
  figcaption {
 	font-family:Montserrat;
-	font-size:24px;
-	line-height:29px;
-	margin:20px 15% 0px 15%;
+	font-size:18px;
+	line-height:24px;
+	margin:0px 15% 10px 15%;
 	
 	}
 
@@ -689,6 +686,10 @@ max-width:150px;
  .width {
 	width:300px;
 	padding-bottom:3rem;
+ }
+ 
+ .left {
+	margin:0;
  }
 
  .lefthome {
@@ -802,7 +803,6 @@ max-width:150px;
 
 .button{
 	display:block;
-	margin:0 0 0 0px;
 
 }
 
@@ -815,9 +815,13 @@ max-width:150px;
 	flex:2;
 }
 
+.hometitle {
+   font-size:48pt;
+ }
 
-
-
+.worktitle {
+	font-size:48pt;
+	}
 
  .violet {
 	background-color:#4D4D64;
