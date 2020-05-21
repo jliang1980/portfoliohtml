@@ -58,7 +58,7 @@ aside	{
 }
 
 
-.black	{
+.bkg	{
 	background-color:#1C1C26;
 	padding:25px;
 }
@@ -67,20 +67,20 @@ aside	{
 
 
 
-.blackabout	{
+.about	{
 	background-color:#1C1C26;
 	padding:25px;
 	}
 
 
 
-.violet {
+.bkg-1 {
 	background-color:#4D4D64;
 	padding:50px;
 }
 
 
-.lightviolet {
+.bkg-2 {
 	background-color:#EEEEF6;
 	padding:50px;
 }
@@ -628,12 +628,12 @@ tr	{
 	color:#4D4D64;
  }
 
- .black {
+ .bkg	{
 	padding:5% 
  }
 
 
- .blackabout {
+ .about {
 	padding:0px 15% 5% 15%;
  }
 
@@ -814,6 +814,7 @@ max-width:150px;
 	text-align:left;
 	flex:2;
 }
+}
 
 .hometitle {
    font-size:48pt;
@@ -823,19 +824,19 @@ max-width:150px;
 	font-size:48pt;
 	}
 
- .violet {
+ .bkg-1 {
 	background-color:#4D4D64;
 	padding:5% 25% 5% 25%;
  }
 
- .lightviolet {
+ .bkg-2 {
 	background-color:#EEEEF6;
 	padding:5% 25% 5% 25%;
  }
  
   
  
- .blackabout {
+ .about {
 	padding:0px 25% 5% 25%;
  }
 
