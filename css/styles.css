@@ -516,10 +516,16 @@ table	{
 	padding:5%;
   }
 
+ 
+ 
 @media(min-width:600px) 
 
 {
 
+.center {
+   margin:0 auto;
+   } 
+   
 .bottom {
 background-color:#1C1C26;
 padding-bottom:100px;
@@ -609,10 +615,7 @@ tr	{
 }	
 
  
- 
- .center {
-   margin:0 auto;
-   } 
+
 
  .violet {
 	background-color:#4D4D64;
