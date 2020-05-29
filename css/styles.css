@@ -702,6 +702,12 @@ max-width:150px;
 	flex:1;
  }
 
+
+ .lefthome2 {
+	width:50%;
+	flex:1;
+ }
+ 
 .righthome{
 	width:100%;
 	flex:2;
