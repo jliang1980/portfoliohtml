@@ -524,6 +524,7 @@ table	{
 
 .center {
    margin:0 auto;
+   display:block;
    } 
    
 .bottom {
@@ -830,6 +831,7 @@ max-width:150px;
  .bkg-1 {
 	background-color:#4D4D64;
 	padding:5% 25% 5% 25%;
+	
  }
 
  .bkg-2 {
