@@ -94,7 +94,7 @@ aside	{
 
 
 .blueviolet-type {
-	color:#9999CC;
+	color:#EEEEF6;
 }
 
 .logo {
@@ -257,6 +257,11 @@ nav ul li a {
 	text-decoration: none;
 }
 
+nav ul li a:hover {
+	color:#9999CC;
+}
+
+
 nav ul li a span {
 	font-family:Roboto;
 	font-style: normal;
@@ -406,6 +411,8 @@ a	{
 	padding-bottom:2rem;
 }
 
+
+
 .center {
 	margin:0 auto;
 
@@ -450,8 +457,8 @@ display:none;
 
 /* Style navigation menu links */
 .topnav a {
-	color: white;
-  padding: 18px 12px;
+  color: white;
+  padding: 18px 224px;
   text-decoration: none;
   font-size: 18px;
   display: block;
@@ -521,6 +528,9 @@ table	{
 @media(min-width:600px) 
 
 {
+
+
+
 
 .center {
    margin:0 auto;
