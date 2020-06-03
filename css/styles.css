@@ -443,11 +443,18 @@ display:none;
  margin:0 auto;
 }
 
+#myLinks 
+
+
+
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
   background-color:#1C1C26;
-  position: relative;
+  position:absolute;
+  left:0; 
+  top:100;
+}
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -458,7 +465,7 @@ display:none;
 /* Style navigation menu links */
 .topnav a {
   color: white;
-  padding: 18px 224px;
+  padding: 18px 250px;
   text-decoration: none;
   font-size: 18px;
   display: block;
