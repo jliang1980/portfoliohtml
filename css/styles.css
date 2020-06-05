@@ -447,7 +447,6 @@ display:none;
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  background-color:#1C1C26;
   position:absolute;
   left:0;
   top:50;
@@ -460,34 +459,36 @@ display:none;
 
 /* Style navigation menu links */
 .topnav a {
+  background-color:#4D4D64;
   color: white;
   padding: 18px 300px;
   text-decoration: none;
   font-size: 18px;
   display: block;
   font-family:Playfair Display;
-  margin:0 auto;
+  margin:auto;
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background:#1C1C26;
   display: block;
-  position: absolute;
-  right: 0;
+  position: absolute;`
+  left:16px;
   top: 0;
+  padding:0;
+  
 }
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #4D4D64;
-  color: #EEEEF6;
+  background-color:#666680;
+  color:#EEEEF6;
 }
 
 /* Style the active link (or home/logo) */
 .active {
   background-color:#EEEEF6;
-  color: white;
+  color:#EEEEF6;
 }
 
 
