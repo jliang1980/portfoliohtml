@@ -172,7 +172,9 @@ figcaption
 }
 
 
-
+.bold {
+font-weight:bold;
+}
 
 .wrapper3 {
 	max-width:1200px;
@@ -182,20 +184,31 @@ figcaption
 	display:flex;
  }
 
+.overflow {
+	overflow-y:scroll;
+	height:300px;
+}
+
+.align {
+	vertical-align:text-top;
+}
+
 .persona{
 	margin:0 auto;
-	display:flex;
+	display:inline-block;
 
 }
 
 .leftpersona{
-	width:50%;
+	width:45%;
+	float:left;
 }
 
 .rightpersona{
 	
 	padding-left:50px;
-	width:50%;
+	width:45%;
+	float:right;
 }
 
 
@@ -373,6 +386,8 @@ tr	{
 	background-color:white;
 }
 
+.overflow tr:nth-child(even)
+{background: #CCC}
 
 .col33	{
 	width:33%;

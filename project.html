@@ -190,16 +190,22 @@ When sharing files
 			<h3 class="title violet-type">USER PERSONAS</h3>
 			
 				<p class="normal violet-type">With the data from the user survey, I constructed two user personas</p>
-				<section class="persona"><section class="left persona"><img src="images/maria.png" alt="maria"></section>
+				<section class="persona"><section class="left persona"><img src="images/maria.png" alt="maria" class="align"></section>
 				<section class="rightpersona"><p class="normal violet-type">
-				 Maria is a university student who acts as a project group leader. She detests piecing together paper bits of a project from other students. She wishes for real-time authoring tools for her fellow students, 
-				being able to share a link to the project the professor, and built-in instant messaging tools.								
+				 <span class="bold">Name:</span> Maria<br><br>
+				 <span class="bold">Profession:</span>University student who acts as a project group leader.<br><br>
+				 <span class="bold">Frustrations:</span> She detests piecing together paper bits of a project from other students.<br><br>
+				 <span class="bold">Motivations/Goals:</span> She wishes for real-time authoring tools for her fellow students,
+				being able to share a link to the project the professor, and built-in instant messaging tools.<br><br>				
 				</p></section>
 				</section>
-				<section class="persona"><section class="left persona"><img src="images/robert.png" alt="robert"></section>
+				<section class="persona"><section class="left persona"><img src="images/robert.png" alt="robert" class="align"></section>
 				<section class="rightpersona"><p class="normal violet-type">
-				Robert is a web project manager for a Fortune 500 company. His team includes 
-				remote workers from halfway around the world. He is interested in real-time co-authoring tools but only if it is not laggy and only if it shows who is authoring what on the screen. He would like an in-app messaging tool as well.</p>								
+				<span class="bold">Name:</span>Robert<br><br>
+				<span class="bold">Profession:</span>Web project manager for a Fortune 500 company. His team includes remote workers from halfway around the world.<br><br>
+				<span class="bold">Frustrations:</span> Laggy real-time co-authoring tools.<br><br>
+				<span class="bold">Motivations/Goals</span> He is interested in real-time co-authoring tools that work smoothly and only if it shows who is authoring what on the screen. He would like an in-app messaging tool as well.<br>
+							
 				</p></section></section>
 				
 				
@@ -213,7 +219,103 @@ When sharing files
 			<div class="projecthr white"></div>
 			<h3 class="title">User Stories and User Flows</h3>
 			<p class="normal">Based on the research mentioned, I wrote out 20 user stories with nine high priority user stories that will be included in the Minimum Viable Product, and will be mapped out further with user flows.
-			I took inspiration for mapping out the user flows from processes in Google and Dropbox. The user flow diagrams included flows for signing up for an account, creating a new project, organizing a file, sharing a file, uploading a file,  real-time co-authoring a document, seeing the file version history, sending messages to a teammate, and checking off completed tasks..</p>
+			</p>
+			<table class="overflow">
+				<tr>
+					<td>ROLE</td>
+					<td>TASK</td>
+					<td>IMPORTANCE</td>
+				</tr>
+				<tr>
+					<td>As a new user</td>
+					<td>I want to be able to sign into account</td>
+					<td>high</td>
+				</tr>
+				<tr>
+					<td>As a returning user</td>
+					<td>I want to upload a file</td>
+					<td>high</td>
+				</tr>
+				<tr>
+					<td>As a returning user</td>
+					<td>I want to organize files into folders</td>
+					<td>high</td>
+				</tr>
+				<tr>
+					<td>As a returning user</td> 	
+					<td>I want to share documents using a special hyperlink</td> 	
+					<td>high</td>
+					
+				<tr>
+					<td>As a returning user</td>
+					<td>I want to real-time co-author a document with another user</td>
+					<td>high</td>
+				<tr>
+					<td>As a returning user </td>
+					<td>I want to create a project</td>
+					<td>high </td>
+				<tr>
+					<td>As an administrator</td>
+					<td>I want to specify users to invite to a project</td>
+					<td>high</td>
+				<tr>
+					<td>As a returing user</td>
+					<td>I want to send messages to the administrator</td>
+					<td> high</td>
+				<tr>
+					<td>As a returning user </td>
+					<td>I want to see tasks assigned to me 	</td>
+					<td>high</td>
+				</tr>
+				<tr>
+					<td>As a returing user</td>
+					<td>I want to send messages to the administrator</td>
+					<td>high</td>
+				</tr>
+				<tr>
+					<td>As an administrator </td>
+					<td>I want to set different read write permissions levels to users</td>
+					<td>medium</td>
+				</tr>
+				<tr>
+					<td>As an administrator</td>
+					<td>I want to assign tasks to users</td>
+					<td>medium</td>
+				</tr>
+				<tr>
+					<td>As a returning user</td>
+					<td>I want to specify different read write permissions levels for the links that I share</td>
+					<td>medium</td>
+				</tr>
+				<tr>
+					<td>As a returning user </td>
+					<td>I want to share a folder using a special hyperlink	</td>
+					<td>medium</td>
+				</tr>
+				<tr>
+					<td>As a returning user </td>
+					<td>I want to check off tasks when completed </td>
+					<td>medium</td>
+				</tr>
+				<tr>
+					<td>As a returning user </td>
+					<td>i want to able to send direct messages to teamates</td>
+					<td>medium</td>
+				</tr>
+				<tr>
+					<td>As a returning user </td>
+					<td>I want email updates to keep me informed of the changes to my document</td>
+					<td>low</td>
+				</tr>
+				<tr>
+					<td>As a returning user </td>
+					<td>I want to show version history of file</td>
+					<td>low</td>
+				</tr>
+			</table>
+			
+			
+			<p class="normal">I took inspiration for mapping out the user flows from processes in Google and Dropbox. The user flow diagrams included flows for signing up for an account, creating a new project, organizing a file, sharing a file, uploading a file,  real-time co-authoring a document, seeing the file version history, sending messages to a teammate, and checking off completed tasks..</p>
 			<img src="images/userflow.png" class="center" alt="User Flow Diagram">
 			<a href="https://drive.google.com/open?id=1CCxGE9RSMsNmuiWyyBc5vXam20AkTZMO" class="button center" target=”_blank”>View User Flows</a>
 			<p class="normal">After sketching a few ideas on paper, I started to wireframe the user flows in Figma. Again  I took  inspiration from Google and Dropbox user interface to keep the app 
