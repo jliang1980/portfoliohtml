@@ -136,7 +136,7 @@ aside	{
 	text-align:left;
 }
 
-figcaption
+figcaption .top
 {
 	font-family:Montserrat;
 	font-size: 18px;
@@ -146,11 +146,26 @@ figcaption
 	margin:-3rem 0 2rem 2rem;
 }
 
+figcaption .small
+{
+	font-family:Montserrat;
+	font-size: 14px;
+	color:#FFFFFF;
+	text-align:left;
+}
+
 .dashwhite
 {
 	display:none;
 }
 
+
+.normal2	{
+	font-family:Montserrat;
+	font-size:16px;
+	color:#FFFFFF;
+	text-align:center;
+}
 
 .normal	{
 	font-family:Montserrat;
@@ -161,6 +176,8 @@ figcaption
 	padding-top:2rem;
 	padding-bottom:2rem;
 }
+
+
 
 
 .centre	{
@@ -187,7 +204,19 @@ font-weight:bold;
 .overflow {
 	overflow-y:scroll;
 	height:300px;
+	max-width:600px;
+	margin:0 auto;
 }
+
+.imgsize {
+	max-width:600px;
+}
+
+.imgsize2 {
+	
+	max-width:400px;
+}
+
 
 .align {
 	vertical-align:text-top;
@@ -195,8 +224,15 @@ font-weight:bold;
 
 .persona{
 	margin:0 auto;
-	display:inline-block;
+	display:flex;
+	align-items:flex-start;
 
+}
+
+.flex{
+	display:flex;
+	padding-top:50px;
+	padding-bottom:50px;
 }
 
 .leftpersona{
@@ -696,7 +732,7 @@ tr	{
  }
 
  .bkg	{
-	padding:0 5% 4% 5%
+	padding:0 5% 4% 5%;
  }
 
 
@@ -729,6 +765,11 @@ max-width:150px;
  .projecthr {
 	border-bottom:2px dashed #4D4D64;
 	margin-top:2rem;
+ }
+ 
+ .maxwidth {
+	max-width:800px;
+	margin:0 auto;
  }
 
  .normal {
@@ -914,13 +955,22 @@ max-width:150px;
 	padding:5% 30% 5% 30%;
 	
  }
+ 
+ .bkg-11 {
+	background-color:#4D4D64;
+	padding:5% 10% 5% 10%;
+	
+ }
 
  .bkg-2 {
 	background-color:#EEEEF6;
 	padding:5% 30% 5% 30%;
  }
  
-  
+ .bkg-22 {
+	background-color:#EEEEF6;
+	padding:5% 10% 5% 10%;
+ }
  
  .about {
 	padding:0px 25% 5% 25%;
