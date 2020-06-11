@@ -28,6 +28,9 @@ aside	{
 	background-repeat:no-repeat;
 }
 
+.flex {
+	display:inline-block;
+}
 
   
 .lg { 
@@ -39,7 +42,7 @@ aside	{
 
 .button {
 	background:#696988;
-	width:250px;
+	width:225px;
 	border-radius: 10px;
 	color: white;
 	font-family:Montserrat;
@@ -48,6 +51,7 @@ aside	{
 	margin:2rem 0 0 0;
 	display:block;
 }
+
 
 .dropcap { 
 	font-family: Playfair Display;
@@ -79,14 +83,20 @@ aside	{
 	padding:50px;
 }
 
+.bkg-11 {
+	background-color:#4D4D64;
+	padding:50px;
+}
 
 .bkg-2 {
 	background-color:#EEEEF6;
 	padding:50px;
 }
 
-
-
+.bkg-22 {
+	background-color:#EEEEF6;
+	padding:50px;
+}
 
 .padding-250 {
 	padding:250px;
@@ -136,7 +146,7 @@ aside	{
 	text-align:left;
 }
 
-figcaption .top
+.top
 {
 	font-family:Montserrat;
 	font-size: 18px;
@@ -146,12 +156,13 @@ figcaption .top
 	margin:-3rem 0 2rem 2rem;
 }
 
-figcaption .small
+.small
 {
 	font-family:Montserrat;
 	font-size: 14px;
-	color:#FFFFFF;
-	text-align:left;
+	color:#000000;
+	text-align:center;
+	padding-top:10px;
 }
 
 .dashwhite
@@ -210,11 +221,17 @@ font-weight:bold;
 
 .imgsize {
 	max-width:600px;
+	padding-right:20px;
 }
 
 .imgsize2 {
 	
 	max-width:400px;
+}
+
+.padding-right{
+	padding-right:25px;
+
 }
 
 
@@ -505,7 +522,7 @@ display:none;
 
   
  a.button {
-	width:320px;
+	width:280px;
 	background:#696988;
 	border-radius: 10px;
 	color: white;
@@ -548,6 +565,8 @@ display:none;
   font-size: 18px;
   display: block;
   font-family:Playfair Display;
+  margin-left:-20px;
+  
 
 }
 
@@ -906,6 +925,9 @@ max-width:150px;
 	background-color:#FFFFFF;
  }
 
+.white2{
+	color:#FFFFFF;
+}
 
  .img-bottom {
 	padding:2rem;
