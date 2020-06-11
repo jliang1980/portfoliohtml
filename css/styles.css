@@ -492,7 +492,6 @@ display:none;
 
   
  a.button {
-	width:280px;
 	background:#696988;
 	border-radius: 10px;
 	color: white;
@@ -588,9 +587,8 @@ table	{
 
 
 .bottomlefthome {
-	text-align:center;
-	
-	}
+	text-align:center;	
+}
 
 .bottomrighthome {
 	text-align:center;
@@ -607,6 +605,10 @@ table	{
 @media(min-width:600px) 
 
 {
+	
+ a.button {
+width:320px;
+ }
 	
 .imgsize3{
 width:50%;
@@ -780,7 +782,7 @@ max-width:150px;
 	font-family:Montserrat;
 	font-size:18px;
 	line-height:24px;
-	margin:0px 25% 10px 25%;
+	margin:0px 25% 0px 25%;
 	
 	}
 
