@@ -28,10 +28,6 @@ aside	{
 	background-repeat:no-repeat;
 }
 
-.flex {
-	display:flex;
-	flex-wrap:wrap;
-}
 
   
 .lg { 
@@ -41,6 +37,17 @@ aside	{
 }
 
 
+.button {
+	background:#696988;
+	width:250px;
+	border-radius: 10px;
+	color: white;
+	font-family:Montserrat;
+	font-size:16px;	
+	text-decoration:none;
+	margin:2rem 0 0 0;
+	display:block;
+}
 
 .dropcap { 
 	font-family: Playfair Display;
@@ -72,20 +79,14 @@ aside	{
 	padding:50px;
 }
 
-.bkg-11 {
-	background-color:#4D4D64;
-	padding:50px;
-}
 
 .bkg-2 {
 	background-color:#EEEEF6;
 	padding:50px;
 }
 
-.bkg-22 {
-	background-color:#EEEEF6;
-	padding:50px;
-}
+
+
 
 .padding-250 {
 	padding:250px;
@@ -93,7 +94,7 @@ aside	{
 
 
 .blueviolet-type {
-	color:#EEEEF6;
+	color:#9999CC;
 }
 
 .logo {
@@ -135,45 +136,21 @@ aside	{
 	text-align:left;
 }
 
-.top
+figcaption
 {
 	font-family:Montserrat;
 	font-size: 18px;
 	line-height: 24px;
 	color:#FFFFFF;
 	text-align:left;
-	padding:0 5% 5% 5%;
-	
+	margin:-3rem 0 2rem 2rem;
 }
-
-.small
-{
-	font-family:Montserrat;
-	font-size: 14px;
-	color:#000000;
-	text-align:center;
-	padding-top:10px;
-	padding-bottom:10px;
-}
-
-.white2{
-	color:#ffffff;
-}
-
 
 .dashwhite
 {
 	display:none;
 }
 
-
-.normal2	{
-	font-family:Montserrat;
-	font-size:16px;
-	color:#FFFFFF;
-	line-height: 24px;
-	text-align:center;
-}
 
 .normal	{
 	font-family:Montserrat;
@@ -186,8 +163,6 @@ aside	{
 }
 
 
-
-
 .centre	{
 	text-align:center;
 }
@@ -197,9 +172,7 @@ aside	{
 }
 
 
-.bold {
-font-weight:bold;
-}
+
 
 .wrapper3 {
 	max-width:1200px;
@@ -208,42 +181,6 @@ font-weight:bold;
  .wrapper-flex3 {
 	display:flex;
  }
-
-.overflow {
-	overflow-y:scroll;
-	height:300px;
-	max-width:600px;
-	margin:0 auto;
-}
-
-
-
-.padding-right{
-	padding-right:25px;
-
-}
-
-
-.persona{
-	margin:0 auto;
-	display:flex;
-	align-items:flex-start;
-	flex-wrap:wrap;
-	padding-bottom:20px;
-
-}
-
-.leftpersona{
-	width:45%;
-	float:left;
-}
-
-.rightpersona{
-	
-	padding-left:50px;
-	width:45%;
-	float:right;
-}
 
 
  .wrapper-flex-space-between {
@@ -320,14 +257,6 @@ nav ul li a {
 	text-decoration: none;
 }
 
-nav ul li a:visited {
-	color:#696988;
-}
-
-nav ul li a:hover {
-	color:#ccccff;
-}
-
 nav ul li a span {
 	font-family:Roboto;
 	font-style: normal;
@@ -336,16 +265,6 @@ nav ul li a span {
 	line-height: 28px;
 	color: #FFFFFF;
 }
-
-nav ul li a:visited span {
-	color:#696988;
-}
-
-nav ul li a:hover span {
-	color:#ccccff;
-}
-
-
 
 .middlelogo	{
 	margin-left: auto;	
@@ -420,8 +339,6 @@ tr	{
 	background-color:white;
 }
 
-.overflow tr:nth-child(even)
-{background: #CCC}
 
 .col33	{
 	width:33%;
@@ -478,7 +395,16 @@ li.signup{
 }
 
 
-
+a	{
+	text-decoration:none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	text-align: center;
+	color:black;
+	padding-bottom:2rem;
+}
 
 .center {
 	margin:0 auto;
@@ -492,7 +418,7 @@ display:none;
 
   
  a.button {
-	width:280px;
+	width:250px;
 	background:#696988;
 	border-radius: 10px;
 	color: white;
@@ -500,8 +426,9 @@ display:none;
 	text-decoration:none;
 	text-align:center;
 	padding:1rem;
-	margin:25px auto;
+	margin-top:2rem;
 	font-size:16px;
+	margin-bottom:25px;
 	display:block;
  }
 
@@ -509,56 +436,47 @@ display:none;
  margin:0 auto;
 }
 
-
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
-  position:absolute;
-  left:0;
-  top:100;
+  background-color:#1C1C26;
+  position: relative;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
-#myLinks {
+.topnav #myLinks {
   display: none;
-  background-color:#4D4D64;
-
 }
 
 /* Style navigation menu links */
 .topnav a {
-  background:transparent;
-  color: white;
-  padding: 18px 28vh;
+	color: white;
+  padding: 18px 12px;
   text-decoration: none;
   font-size: 18px;
   display: block;
   font-family:Playfair Display;
-  margin-left:-20px;
-  
-
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
+  background:#1C1C26;
   display: block;
   position: absolute;
-  left:50px;
+  right: 0;
   top: 0;
-  padding:0;
-  
 }
 
-/* Add a background color on mouse-over */
+/* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color:#666680;
-  color:#EEEEF6;
+  background-color: #4D4D64;
+  color: white;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color:#EEEEF6;
-  color:#EEEEF6;
+  background-color:#1C1C26;
+  color: white;
 }
 
 
@@ -574,12 +492,9 @@ display:none;
 .email	{
 	font-family: Montserrat;
 	font-style: normal;
-	font-weight:bold;
-	font-size:14px;
-	color:#4D4D64;
-	text-decoration:none;
-	padding-bottom:20px;
-	
+	font-weight: normal;
+	font-size: 21px;
+	line-height:64px;
 }   
 
 table	{
@@ -594,7 +509,6 @@ table	{
 
 .bottomrighthome {
 	text-align:center;
-	margin-top:10px;
 	}
 
 .bkg-3 {
@@ -607,20 +521,6 @@ table	{
 @media(min-width:600px) 
 
 {
-	
-.imgsize3{
-width:50%;
-height:50%;
-}
-
-.imgsize{
-max-width:600px;
-padding-right:20px;
-}
-
-.imgsize2{
-	max-width:400px;
-}
 
 .center {
    margin:0 auto;
@@ -709,42 +609,19 @@ tr	{
 	font-family: Playfair Display;
 	font-style: italic;
 	font-weight: bold;
-	font-size: 24px;
-	line-height:36px;
+	font-size: 36px;
+	line-height: 48px;
 	text-align: center;
 	padding-bottom:2rem;
-	color:#4D4D64;
 }	
+
+ 
 
 
  .violet {
 	background-color:#4D4D64;
 	padding:50px;
  }
- 
- 
- .bkg-1 {
-	background-color:#4D4D64;
-	padding:5% 30% 5% 30%;
-	
- }
- 
- .bkg-11 {
-	background-color:#4D4D64;
-	padding:5% 10% 5% 10%;
-	
- }
-
- .bkg-2 {
-	background-color:#EEEEF6;
-	padding:5% 30% 5% 30%;
- }
- 
- .bkg-22 {
-	background-color:#EEEEF6;
-	padding:5% 10% 5% 10%;
- }
- 
  
  .bkg-3 {
 	background-color:#EEEEF6;
@@ -756,7 +633,7 @@ tr	{
  }
 
  .bkg	{
-	padding:0 5% 4% 5%;
+	padding:0 5% 4% 5%
  }
 
 
@@ -780,7 +657,7 @@ max-width:150px;
 	font-family:Montserrat;
 	font-size:18px;
 	line-height:24px;
-	margin:0px 25% 10px 25%;
+	margin:0px 15% 10px 15%;
 	
 	}
 
@@ -790,11 +667,6 @@ max-width:150px;
 	border-bottom:2px dashed #4D4D64;
 	margin-top:2rem;
  }
- 
- .maxwidth {
-	max-width:800px;
-	margin:0 auto;
- }
 
  .normal {
 	font-family:Montserrat;
@@ -802,20 +674,8 @@ max-width:150px;
 	line-height: 29px;
 	color:#FFFFFF;
 	text-align:left;
-	max-width:600px;
-	margin:0 auto;
-	
  }
 
- .normal2 {
-	font-family:Montserrat;
-	font-size: 18px;
-	line-height: 29px;
-	color:#FFFFFF;
-	text-align:left;
-	padding-top:15px;
-	
- }
  .title {
 	font-family:Montserrat;
 	text-align:center;
@@ -831,7 +691,6 @@ max-width:150px;
 	width:300px;
 	padding-bottom:3rem;
  }
- 
  
  .left {
 	margin:0;
@@ -867,8 +726,8 @@ max-width:150px;
  .hometitlesmall {
 	text-align:left;
 	font-family: Montserrat;
-	font-size: 24px;
-	line-height: 36px;
+	font-size: 36px;
+	line-height: 44px;
  }
 
 
@@ -931,15 +790,12 @@ max-width:150px;
 	background-color:#FFFFFF;
  }
 
-.white2{
-	color:#FFFFFF;
-}
-
 
  .img-bottom {
 	padding:2rem;
 	float:left; 
  }
+
 
  .img-top {
 	padding:2rem;
@@ -960,29 +816,15 @@ max-width:150px;
 
 }
 
-
-.flex{
-	display:flex;
-	flex-wrap:nowrap;
-	padding-top:50px;
-	padding-bottom:50px;
-}
-
-.email{
-	font-size:18px;
-}
-
-
 @media(min-width:1024px){
 	
-
 
 
 .bottomlefthome{
 	text-align:left;
 	flex:2;
 }
-
+}
 
 .hometitle {
    font-size:48pt;
@@ -992,6 +834,19 @@ max-width:150px;
 	font-size:48pt;
 	}
 
+ .bkg-1 {
+	background-color:#4D4D64;
+	padding:5% 25% 5% 25%;
+	
+ }
+
+ .bkg-2 {
+	background-color:#EEEEF6;
+	padding:5% 25% 5% 25%;
+ }
+ 
+  
+ 
  .about {
 	padding:0px 25% 5% 25%;
  }
