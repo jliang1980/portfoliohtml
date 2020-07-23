@@ -5,7 +5,8 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	  <link rel="stylesheet" type="text/css" href="css/reset.css">
       <link rel="stylesheet" type="text/css" href="css/styles.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8"/>
+      <link rel='icon' href='favicon.ico' type='image/x-icon'/ >		
+	  <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8"/>
 	  <script>
 	  function myFunction() {
 		var x = document.getElementById("myLinks");
@@ -61,6 +62,7 @@
                <li><a href="index.html"><span>01</span> Home</a></li>
                <li><a href="project.html"><span>02</span> Work</a></li>
                <li><a href="about.html"><span>03</span> About</a></li>
+			   <li><a href="resume.pdf" download><span>04</span> Resume</a></li>
                <li><a href="mailto:jingliang0503@gmail.com"><span>04</span> Email Me</a></li> 
             </ul>
 				
@@ -76,11 +78,11 @@
 			<hr class="dashwhite">
 			<h2 class="hometitlesmall">I am a <span class="blueviolet-type">UI/UX </span>designer based in <span class="blueviolet-type">Toronto, Canada.</span>
 			I use empathy and data analysis to craft user-informed experiences.</h2>
-			<a href="project.html" class="button center left">View Work</a>
+			<a href="project.html" class="button left">View Work</a>
 
 		</section>
 		<section class="righthome">
-			<img src="images/jing.jpg" alt="Jing Liang">
+			<img src="images/jing.png" class="home" alt="Jing Liang">
 		</section>
       </div>
 	  </header>
@@ -95,7 +97,7 @@
                <h3 class="hometitlesmall violet-type smaller">UX/UI Branding</h3>
                <p class="normal2 violet-type width">Cloud storage with 
                   project management features. Each project is its own ecosytem with files, messages and tasks.</p>
-				<a href="project.html" class="button center left">View Case Study</a>
+				<a href="project.html" class="button left">View Case Study</a>
             </section>
             <section class="righthome">
                <!-- pay attention here -->
@@ -105,19 +107,29 @@
          </div>
       </main>
 	<footer>
-	  <div class="center">
-			<p class="connect">Let's bring your ideas to life. Connect with me via email, Linkedin, Facebook, or checkout my Github!</p>
-	 </div>
+
+			
+	 
 	 <div class="wrapper wrapper-flex">
 		<section class="bottomlefthome">
-			<a class="email" href="mailto:jingliang0503@gmail.com">jingliang0503@gmail.com</a>
-		</section>
-		<section class="bottomrighthome">
+			<p class="connect">Connect with me.</p>
 			<ul class="social">
 				<li class="social"><a href="https://www.linkedin.com/in/jingliang01/" target=”_blank”><img src="images/linkedin.png" alt="Linkedin" class="socialimg"></a></li>
 				<li class="social"><a href="https://www.facebook.com/jing.liang1" target=”_blank”><img src="images/facebook.png" alt="Facebook" class="socialimg"></a></li>
 				<li class="social"><a href="https://github.com/jliang1980" target=”_blank”><img src="images/github.png" alt="github" class="socialimg"></a></li>
 			</ul>
+		</section>
+		<section class="bottomrighthome">
+		<p class="connect">Leave me a message.</p>
+			<form action="https://formspree.io/xdowynjj" method="POST">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" class="input" placeholder="Type in name..." required>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" class="input" placeholder="Type in email..." required>
+          <label for="message">Message</label>
+          <textarea name="message" rows="6" cols="30" id="message" class="input" placeholder="Type in message..." required></textarea>
+          <button type="submit" name="submit" id="footerbtn" class="footerbtn">Send</button>
+        </form>
 		</section>
 	
 	</div>
