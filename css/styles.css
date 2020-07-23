@@ -291,7 +291,7 @@ font-weight:bold;
 	font-size:56px;
 	line-height:72px;
 	margin-top:2rem;
-	padding-bottom:4rem;
+	padding-bottom:2rem;
 	margin-bottom:2rem;
 	border-bottom:2px dashed white;
 }
@@ -333,7 +333,6 @@ nav ul li a:visited {
 
 nav ul li a:hover {
 	color:#ccccff;
-	border-bottom:3px solid #696988;
 }
 
 nav ul li a span {
@@ -694,6 +693,12 @@ label {
  
 @media(min-width:600px){
 
+
+
+nav ul li a {
+font-size:16pt;
+}
+
 .small {
 padding-bottom:10px;
 }
@@ -965,9 +970,6 @@ max-width:150px;
 
 
 	
-	
-
-
 
  .hometitle span {
 	display:inline;
@@ -977,9 +979,9 @@ max-width:150px;
  .hometitlesmall {
 	text-align:left;
 	font-family: Montserrat;
-	font-size: 24px;
-	line-height: 36px;
-	margin-bottom:-7px;
+	font-size: 14pt;
+	line-height: 18pt;
+	margin-bottom:-10px;
  }
 
 
@@ -1000,7 +1002,8 @@ max-width:150px;
 
 
 .lg2 { 
-	background-image:url("../images/responsivedevices.png"); 
+	background-image:url("../images/responsivedevices.png");
+	height:500px;
 	background-size:contain;
 	margin:0 auto;
 
@@ -1095,9 +1098,26 @@ max-width:150px;
 }
 
 
-@media(min-width:1024px){
+.hometitle	{
 	
+	font-size:36pt;
+	padding-bottom:10px;
+}
 
+
+
+@media(min-width:1024px){
+
+nav ul li a:hover {
+	color:#ccccff;
+	border-bottom:3px solid #696988;
+}
+	
+	
+	
+ .hometitlesmall {
+	 font-size:18pt;
+ }
 
 
 .bottomlefthome{
