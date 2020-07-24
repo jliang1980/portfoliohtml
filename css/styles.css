@@ -32,11 +32,22 @@ aside	{
 	flex-wrap:wrap;
 }
 
+
+
   
 .lg { 
 	background-image:url("../images/mobile.png");
 	background-size:contain; 
 	height:425px;
+}
+
+
+.lg2 { 
+	background-image:url("../images/mobile.png");
+	background-size:contain; 
+	-left:10px;
+	height:375px;
+	width:362px;
 }
 
 
@@ -52,7 +63,7 @@ aside	{
 
 .bkg	{
 	background-color:#1C1C26;
-	padding:25px;
+	padding:5% 10% 5% 10%;
 }
 
 
@@ -73,7 +84,7 @@ aside	{
 
 .bkg-11 {
 	background-color:#4D4D64;
-	padding:50px;
+	padding:25px;
 }
 
 .bkg-2 {
@@ -142,11 +153,11 @@ aside	{
 .top
 {
 	font-family:Montserrat;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 24px;
 	color:#FFFFFF;
 	text-align:left;
-	padding:0 5% 5% 5%;
+	padding-bottom:2rem;
 	
 }
 
@@ -178,7 +189,9 @@ aside	{
 	line-height: 24px;
 	text-align:left;
 	max-width:600px;
-	padding-bottom:2;
+	padding-bottom:2rem;
+	padding-top:2rem;
+	
 }
 
 
@@ -364,9 +377,10 @@ nav ul li a:hover span {
 }
 
 .chart	{
-	margin-left: auto;
 	margin-right: auto;
+	margin-left: auto;
 	display:block;
+	padding-bottom:30px;
 }
 
 .title	{
@@ -477,7 +491,7 @@ footer	{
 	padding:50px;
 }
 
-.social {
+li .social {
 	display:inline;
 	
 }
@@ -488,7 +502,7 @@ footer	{
 }
 
 
-ul .social	{
+ul .sociallist	{
 	margin:0 auto;
 	padding-top:10px;
 	padding-left:10px;
@@ -501,15 +515,8 @@ li.signup{
 
 
 
-.center {
-	margin:0 auto;
 
 
-} 
-
-.connect{
-display:none;
-}
 
   
  a.button {
@@ -523,6 +530,7 @@ display:none;
 	margin:25px 0px 25px 0px;
 	font-size:16px;
 	display:block;
+	width:280px;
  }
  
  a.button2 {
@@ -532,26 +540,32 @@ display:none;
 	font-family:Montserrat;
 	text-decoration:none;
 	text-align:center;
-	padding:1rem;
 	font-size:16px;
-	width:320px;
+	padding:1rem;
+	width:280px;
 	display:block;
+
+} 
  }
  
- 
- 
+.center {
+	margin:0 auto;
+
+
+} 
  a:hover{
 	color:#1C1C26;
  }
  
  
 
-.top {
-	margin-top:20px;
-	}
 	
 .center {
  margin:0 auto;
+}
+
+.top {
+margin-top:10px;
 }
 
 
@@ -690,9 +704,48 @@ label {
 	display:block;
 }
 
+.center {
+   margin:0 auto;
+   display:block;
+   }
+   
+	
+.connect {
+	display:block;
+	font-family: Playfair Display;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 28px;
+	text-align: left;
+	padding-bottom:2rem;
+	color:#4D4D64;
+}	
+
  
 @media(min-width:600px){
 
+table	{
+	display:none;
+}
+
+
+.small
+{	
+	font-family:Montserrat;
+	font-size: 14px;
+	color:#000000;
+	text-align:center;
+	padding-top:10px;
+	margin-bottom:30px;
+}
+
+
+
+
+.flex {
+	display:flex;
+	flex-wrap:wrap;
+}
 
 
 nav ul li a {
@@ -756,38 +809,6 @@ padding-bottom:100px;
 	
 }
 
-.competitive	{
-	display:none;
-}
-
-table, th, td	{
-	border:1px solid #EEEEF6;
-}
-
-table	{
-	border-collapse:collapse;
-	width:70%;
-	margin-bottom:2rem;
-	display:block;
-	margin:0 auto;
-}
-
-
-td	{
-	padding:10px;
-	font-family:Montserrat;
-	text-align:center;
-	font-size:0.8rem;
-	color:#4D4D64;	
-	line-height:1.5;
-	width:25%;
-}
-
-
-
-tr	{
-	background-color:white;
-}
 
 
 
@@ -835,7 +856,7 @@ tr	{
  
  .bkg-1 {
 	background-color:#4D4D64;
-	padding:5% 30% 5% 30%;
+	padding:5% 10% 5% 10%;
 	
  }
  
@@ -886,15 +907,6 @@ max-width:150px;
 
 
 
- figcaption {
-	font-family:Montserrat;
-	font-size:18px;
-	line-height:24px;
-	margin:0px 25% 0px 25%;
-	
-	}
-
-
 
  .projecthr {
 	border-bottom:2px dashed #4D4D64;
@@ -923,8 +935,9 @@ max-width:150px;
 	line-height: 29px;
 	color:#FFFFFF;
 	text-align:left;
-	padding-top:15px;
 	margin:0 auto;
+	margin-top:20px;
+	margin-bottom:20px;
 	max-width:600px;
 	
  }
@@ -1002,9 +1015,10 @@ max-width:150px;
 
 
 .lg2 { 
-	background-image:url("../images/responsivedevices.png");
-	height:500px;
+	background-image:url("../images/responsivedevices.png");	
 	background-size:contain;
+	height:300px;
+	width:700px;
 	margin:0 auto;
 
  } 
@@ -1086,12 +1100,6 @@ max-width:150px;
 }
 
 
-.flex{
-	display:flex;
-	flex-wrap:nowrap;
-	padding-top:50px;
-	padding-bottom:50px;
-}
 
 .email{
 	font-size:18px;
@@ -1108,12 +1116,55 @@ max-width:150px;
 
 @media(min-width:1024px){
 
+.lg2 { 
+	background-image:url("../images/responsivedevices.png");	
+	background-size:contain;
+	height:444px;
+	width:1000px;
+	margin:0 auto;
+
+ } 
+
+.competitive	{
+	display:none;
+}
+
 nav ul li a:hover {
 	color:#ccccff;
 	border-bottom:3px solid #696988;
 }
 	
 	
+table, th, td	{
+	border:1px solid #EEEEF6;
+}
+
+table	{
+	border-collapse:collapse;
+	width:70%;
+	margin-bottom:2rem;
+	display:block;
+	margin:0 auto;
+}
+
+
+td	{
+	padding:10px;
+	font-family:Montserrat;
+	text-align:center;
+	font-size:0.8rem;
+	color:#4D4D64;	
+	line-height:1.5;
+	width:25%;
+}
+
+
+
+tr	{
+	background-color:white;
+}
+
+
 	
  .hometitlesmall {
 	 font-size:18pt;
