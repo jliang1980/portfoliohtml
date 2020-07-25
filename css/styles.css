@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap');
 
 
+
 img {
 	max-width:100%;
 	}
@@ -45,7 +46,7 @@ aside	{
 .lg2 { 
 	background-image:url("../images/mobile.png");
 	background-size:contain; 
-	-left:10px;
+	margin-left:10px;
 	height:375px;
 	width:362px;
 }
@@ -133,7 +134,7 @@ aside	{
 }
 
 .home{
-	padding-top:1rem;
+	padding-top:2rem;
 }
 
 
@@ -305,10 +306,14 @@ font-weight:bold;
 	line-height:72px;
 	margin-top:2rem;
 	padding-bottom:2rem;
-	margin-bottom:2rem;
-	border-bottom:2px dashed white;
+	margin-bottom:4rem;
 }
 
+.hr{
+	margin-top:-10px;
+	margin-bottom:30px;
+	border-bottom:2px dashed white;
+}
 
 .bold	{
 	font-weight:600;
@@ -492,7 +497,8 @@ footer	{
 }
 
 li .social {
-	display:inline;
+	display:inline-block;
+	float:left;
 	
 }
 
@@ -506,6 +512,8 @@ ul .sociallist	{
 	margin:0 auto;
 	padding-top:10px;
 	padding-left:10px;
+	display:inline-block;
+	float:left;
 }
 
 li.signup{
@@ -529,7 +537,6 @@ li.signup{
 	padding:1rem;
 	margin:25px 0px 25px 0px;
 	font-size:16px;
-	display:block;
 	width:280px;
  }
  
@@ -723,6 +730,17 @@ label {
 
  
 @media(min-width:600px){
+
+
+ a.button {
+	width:200px;
+	}
+
+.hr{
+	margin-top:-60px;
+	margin-bottom:20px;
+	border-bottom:2px dashed white;
+}
 
 table	{
 	display:none;
@@ -942,6 +960,18 @@ max-width:150px;
 	
  }
  
+ 
+ .normal3 {
+	font-family:Montserrat;
+	font-size: 18px;
+	line-height: 29px;
+	color:#FFFFFF;
+	text-align:left;
+	margin-top:20px;
+	margin-bottom:20px;
+	max-width:600px;
+	
+ }
 
  .title {
 	font-family:Montserrat;
@@ -966,18 +996,18 @@ max-width:150px;
 
  .lefthome {
 	padding-right:4rem;
-	width:50%;
+	width:40%;
 	flex:1;
  }
 
 
  .lefthome2 {
-	width:50%;
+	width:100%;
 	flex:1;
  }
  
 .righthome{
-	width:100%;
+	width:60%;
 	flex:2;
 }
 
@@ -992,15 +1022,20 @@ max-width:150px;
  .hometitlesmall {
 	text-align:left;
 	font-family: Montserrat;
-	font-size: 14pt;
-	line-height: 18pt;
-	margin-bottom:-10px;
+	font-size:24px;
+	line-height:36px;
  }
 
+.projecttitle {
+	text-align:left;
+	font-family: Montserrat;
+	font-size:30px;
+	line-height:36px;
+}
 
  .smaller {
-	font-size: 21px;
-	line-height: 29px;
+	font-family:Montserrat;
+	font-size:18px;
 	padding-top:20px;
 	margin-bottom:20px;
  }
@@ -1115,6 +1150,12 @@ max-width:150px;
 
 
 @media(min-width:1024px){
+	
+.hr{
+	margin-top:-10px;
+	margin-bottom:30px;
+	border-bottom:2px dashed white;
+}
 
 .lg2 { 
 	background-image:url("../images/responsivedevices.png");	
@@ -1164,11 +1205,6 @@ tr	{
 	background-color:white;
 }
 
-
-	
- .hometitlesmall {
-	 font-size:18pt;
- }
 
 
 .bottomlefthome{
