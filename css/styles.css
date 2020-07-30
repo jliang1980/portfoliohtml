@@ -151,6 +151,10 @@ aside	{
 	text-align:left;
 }
 
+.top2{
+	margin-top:20px;
+}
+
 .top
 {
 	font-family:Montserrat;
@@ -158,7 +162,7 @@ aside	{
 	line-height: 24px;
 	color:#FFFFFF;
 	text-align:left;
-	padding-bottom:2rem;
+	margin-bottom:2rem;
 	
 }
 
@@ -222,6 +226,12 @@ aside	{
 font-weight:bold;
 }
 
+.wrapper4 {
+	max-width:1200px;
+	margin:-25px;
+}
+
+
 .wrapper3 {
 	max-width:1200px;
 }
@@ -271,6 +281,11 @@ font-weight:bold;
 	justify-content:space-between;
  }
 
+.wrapper {
+	max-width:1200px;
+}
+
+
 .hometitle span	{
 	display:block;
 }
@@ -306,7 +321,6 @@ font-weight:bold;
 	line-height:72px;
 	margin-top:2rem;
 	padding-bottom:2rem;
-	margin-bottom:4rem;
 }
 
 .hr{
@@ -496,9 +510,8 @@ footer	{
 	padding:50px;
 }
 
-li .social {
-	display:inline-block;
-	float:left;
+.social {
+	display:inline;
 	
 }
 
@@ -512,8 +525,6 @@ ul .sociallist	{
 	margin:0 auto;
 	padding-top:10px;
 	padding-left:10px;
-	display:inline-block;
-	float:left;
 }
 
 li.signup{
@@ -538,6 +549,7 @@ li.signup{
 	margin:25px 0px 25px 0px;
 	font-size:16px;
 	width:280px;
+	display:block;
  }
  
  a.button2 {
@@ -564,7 +576,7 @@ li.signup{
 	color:#1C1C26;
  }
  
- 
+
 
 	
 .center {
@@ -654,13 +666,13 @@ table	{
 
 .bottomlefthome {
 	text-align:left;
-	width:30%;
+	
 }
 
 .bottomrighthome {
 	text-align:left;
 	margin-top:10px;
-	width:70%:
+	
 	}
 
 .bkg-3 {
@@ -685,7 +697,7 @@ input,textarea {
     margin-bottom: 1.1428em;
     margin-top: 0.57em;
     padding: 0.7857em 1.1428em;
-    width: 100%;
+    width: 85%;
     font-family: Montserrat;
 	font-size:12pt;
 }
@@ -705,7 +717,7 @@ label {
 	text-decoration:none;
 	text-align:center;
 	padding:1rem;
-	margin:25px 0px 25px 0px;
+	margin:0 auto;
 	width:250px;
 	font-size:16px;
 	display:block;
@@ -728,11 +740,34 @@ label {
 	color:#4D4D64;
 }	
 
+.projecttitle {
+	text-align:left;
+	font-family: Montserrat;
+	font-size:30px;
+	line-height:36px;
+}
+
  
 @media(min-width:600px){
 
+.hometitle{
+	margin-bottom:4rem;
+}
 
- a.button {
+.wrapper4 {
+	max-width:1200px;
+
+}
+.footerbtn {
+	margin:25px 0px 25px 0px;
+}
+
+.social{
+	display:inline;
+}
+
+ a .button 
+	{
 	width:200px;
 	}
 
@@ -991,7 +1026,7 @@ max-width:150px;
  
  
  .left {
-	margin:0;
+	margin:0 auto;
  }
 
  .lefthome {
@@ -1078,6 +1113,10 @@ max-width:150px;
 	margin:0 auto;
 }
 
+.wrapper4 {
+	max-width:1200px;
+}
+
  .wrapper-flex {
 	display:flex;
  }
@@ -1150,6 +1189,14 @@ max-width:150px;
 
 
 @media(min-width:1024px){
+	
+.bottomlefthome{
+	margin-left:200px;
+}
+
+.bottomrighthome{
+	margin-left:200px;
+}
 	
 .hr{
 	margin-top:-10px;
