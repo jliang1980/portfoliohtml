@@ -134,7 +134,11 @@ aside	{
 }
 
 .home{
-	padding-top:2rem;
+	margin-top:2rem;
+	background-image:url("../images/jing.png");
+	background-size:contain;
+	background-repeat:no-repeat;
+	height:535px;
 }
 
 
@@ -228,7 +232,7 @@ font-weight:bold;
 
 .wrapper4 {
 	max-width:1200px;
-	margin:-25px;
+	margin:-15px;
 }
 
 
@@ -665,7 +669,7 @@ table	{
 }
 
 .bottomlefthome {
-	text-align:left;
+	text-align:center;
 	
 }
 
@@ -696,8 +700,8 @@ input,textarea {
     font-size: 1.4rem;
     margin-bottom: 1.1428em;
     margin-top: 0.57em;
-    padding: 0.7857em 1.1428em;
-    width: 85%;
+    padding: 0.7857em 1.14em;
+    width:87%;
     font-family: Montserrat;
 	font-size:12pt;
 }
@@ -738,6 +742,7 @@ label {
 	text-align: left;
 	padding-bottom:2rem;
 	color:#4D4D64;
+	text-align:center;
 }	
 
 .projecttitle {
@@ -749,6 +754,20 @@ label {
 
  
 @media(min-width:600px){
+	
+
+.home{
+	margin-top:3rem;
+	background-image:url("../images/soap.png");
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+
+.bottomlefthome {
+	text-align:left;
+	
+}
 
 .hometitle{
 	margin-bottom:4rem;
@@ -766,7 +785,7 @@ label {
 	display:inline;
 }
 
- a .button 
+ a.button 
 	{
 	width:200px;
 	}
@@ -1190,12 +1209,19 @@ max-width:150px;
 
 @media(min-width:1024px){
 	
+.home{
+	background-image:url("../images/jing.png");
+}
+	
 .bottomlefthome{
-	margin-left:200px;
+	
+	margin-left:500px;
 }
 
 .bottomrighthome{
+	
 	margin-left:200px;
+
 }
 	
 .hr{
