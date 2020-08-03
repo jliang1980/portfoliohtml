@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap');
 
-
+.center {
+	margin:0 auto;
+ }
 
 img {
 	max-width:100%;
@@ -46,7 +48,7 @@ aside	{
 .lg2 { 
 	background-image:url("../images/mobile.png");
 	background-size:contain; 
-	margin-left:10px;
+	margin-left:-20px;
 	height:375px;
 	width:362px;
 }
@@ -138,7 +140,7 @@ aside	{
 	background-image:url("../images/jing.png");
 	background-size:contain;
 	background-repeat:no-repeat;
-	height:535px;
+	height:250px;
 }
 
 
@@ -570,7 +572,8 @@ li.signup{
 	margin-top:2rem;
 
 } 
- }
+ 
+ 
  
 .center {
 	margin:0 auto;
@@ -747,15 +750,24 @@ label {
 }	
 
 .projecttitle {
-	text-align:left;
+	text-align:center;
 	font-family: Montserrat;
 	font-size:30px;
 	line-height:36px;
 }
 
- 
+ .smaller {
+	font-family:Montserrat;
+	font-size:20px;
+	padding-top:20px;
+	margin-bottom:20px;
+ }
+
 @media(min-width:600px){
-	
+
+.projecttitle {
+	text-align:center;
+}
 
 .home{
 	margin-top:3rem;
@@ -1043,7 +1055,7 @@ max-width:150px;
  }
  
  
- .left {
+ .center {
 	margin:0 auto;
  }
 
@@ -1086,12 +1098,7 @@ max-width:150px;
 	line-height:36px;
 }
 
- .smaller {
-	font-family:Montserrat;
-	font-size:18px;
-	padding-top:20px;
-	margin-bottom:20px;
- }
+
 
 .lg { 
 	background-image:url("../images/ipad.png"); 
@@ -1296,5 +1303,10 @@ tr	{
  .about {
 	padding:0px 25% 5% 25%;
  }
+
+.home{
+	height:535px;
+}
+
 
 }
