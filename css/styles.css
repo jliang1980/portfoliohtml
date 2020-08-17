@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap');
 
+
 .center {
 	margin:0 auto;
  }
@@ -41,7 +42,8 @@ aside	{
 .lg { 
 	background-image:url("../images/mobile.png");
 	background-size:contain; 
-	height:425px;
+	height:325px;
+
 }
 
 
@@ -137,7 +139,8 @@ aside	{
 
 .home{
 	margin-top:2rem;
-	background-image:url("../images/jing.png");
+	margin-left:12rem;
+	background-image:url("../images/jing2.png");
 	background-size:contain;
 	background-repeat:no-repeat;
 	height:250px;
@@ -304,6 +307,8 @@ font-weight:bold;
 	line-height: 29px;
 	text-align: center;	
 	color:white;
+	margin-bottom:20px;
+
 	
 }
 
@@ -342,6 +347,7 @@ font-weight:bold;
 .nav2 li {
 	display:inline-block;
 }
+
 
 ul.nav {
 	display:none;
@@ -518,6 +524,8 @@ footer	{
 
 .social {
 	display:inline;
+	margin-left:10px;
+
 	
 }
 
@@ -552,10 +560,10 @@ li.signup{
 	text-decoration:none;
 	text-align:center;
 	padding:1rem;
-	margin:25px 0px 25px 0px;
 	font-size:16px;
 	width:280px;
 	display:block;
+	margin:0 auto;
  }
  
  a.button2 {
@@ -613,7 +621,7 @@ margin-top:10px;
 
 /* Style navigation menu links */
 .topnav a {
-  background:transparent;
+  background:tra;
   color: white;
   padding: 18px 28vh;
   text-decoration: none;
@@ -744,7 +752,7 @@ label {
 	font-weight: bold;
 	font-size: 28px;
 	text-align: left;
-	padding-bottom:2rem;
+	padding-bottom:1rem;
 	color:#4D4D64;
 	text-align:center;
 }	
@@ -759,11 +767,18 @@ label {
  .smaller {
 	font-family:Montserrat;
 	font-size:20px;
-	padding-top:20px;
-	margin-bottom:20px;
+	padding:10px;
+	margin:10px 0px;
+	border:3px solid #4D4D64;
+	display:inline-block;
  }
 
 @media(min-width:600px){
+
+ a.button {
+	 margin:25px 0px 25px 0px;
+ }
+		 
 
 .projecttitle {
 	text-align:center;
@@ -771,9 +786,10 @@ label {
 
 .home{
 	margin-top:3rem;
-	background-image:url("../images/home2.png");
+	background-image:url("../images/jing2.png");
 	background-size:contain;
 	background-repeat:no-repeat;
+	height:520px;
 }
 
 
@@ -1051,7 +1067,6 @@ max-width:150px;
 
  .width {
 	width:300px;
-	padding-bottom:3rem;
  }
  
  
@@ -1060,6 +1075,7 @@ max-width:150px;
  }
 
  .lefthome {
+	margin-left:4rem;
 	padding-right:4rem;
 	width:40%;
 	flex:1;
@@ -1216,12 +1232,12 @@ max-width:150px;
 @media(min-width:1024px){
 	
 .home{
-	background-image:url("../images/jing.png");
+	background-image:url("../images/jing2.png");
 }
 	
 .bottomlefthome{
 	
-	margin-left:500px;
+	margin-left:200px;
 }
 
 .bottomrighthome{
