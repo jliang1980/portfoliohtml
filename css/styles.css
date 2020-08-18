@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap');
 
 
+
 .center {
 	margin:0 auto;
  }
@@ -43,6 +44,8 @@ aside	{
 	background-image:url("../images/mobile.png");
 	background-size:contain; 
 	height:325px;
+	margin-left:20px;
+	margin-top:15px;
 
 }
 
@@ -541,6 +544,21 @@ ul .sociallist	{
 	padding-left:10px;
 }
 
+ul.survey{
+	margin:0 auto;
+}
+
+li.survey{
+	margin:0 auto;
+	font-family:Montserrat;
+	font-size: 16px;
+	line-height: 24px;
+	color:#4D4D64;
+	text-align:left;
+	list-style-type:disc;
+	}
+	
+
 li.signup{
 	padding:1rem;
 }
@@ -696,6 +714,11 @@ table	{
 	padding:5%;
   }
 
+.bkg-4 {
+	background-color:#4D4D64;
+	padding:5%;
+  }
+  
 .roundrectangle {
 	margin:25px auto; 
 	background-color:#4D4D64;
@@ -768,12 +791,26 @@ label {
 	font-family:Montserrat;
 	font-size:20px;
 	padding:10px;
-	margin:10px 0px;
+	margin:20px auto;
 	border:3px solid #4D4D64;
-	display:inline-block;
+	display:block;
+	max-width:200px;
+	text-align:center;
  }
 
+.white-type {
+	color:#ffffff;
+}
+
+.border {
+	border:3px solid #ffffff;
+}
+
 @media(min-width:600px){
+
+.smaller {
+	margin:20px 0;
+}
 
  a.button {
 	 margin:25px 0px 25px 0px;
@@ -1084,8 +1121,12 @@ max-width:150px;
 
  .lefthome2 {
 	width:100%;
-	flex:1;
+
  }
+ 
+.righthome2{
+	width:30%;
+}
  
 .righthome{
 	width:60%;
@@ -1118,8 +1159,8 @@ max-width:150px;
 
 .lg { 
 	background-image:url("../images/ipad.png"); 
-	background-size:contain;
-	max-width:500px;
+	background-size:cover;
+	max-width:480px;
 	margin:0 auto;
 
  } 
@@ -1237,7 +1278,7 @@ max-width:150px;
 	
 .bottomlefthome{
 	
-	margin-left:200px;
+	margin-left:400px;
 }
 
 .bottomrighthome{
