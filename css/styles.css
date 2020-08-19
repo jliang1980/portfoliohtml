@@ -837,8 +837,9 @@ label {
       font-weight:700;
 	  opacity:0;
 	  display: flex;
+	  flex-direction:column;
 	  justify-content: center;
-	  align-items: center;
+	  align-content: center;
 	  height:340px;
 }
 
@@ -868,10 +869,12 @@ label {
 	border:3px solid #ffffff;
 	padding:5px;
 	font-weight:200;
+	margin-top:20px;
 }
 
 .background1 {
 background-image:url("../images/leshommes.png");
+
 }
 
 .background2 {
