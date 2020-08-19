@@ -810,13 +810,11 @@ label {
 	color:#ffffff;
 }
 
-.border {
-	border:3px solid #ffffff;
-}
 
 @media(min-width:600px){
 
-.container {
+
+.box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -824,12 +822,52 @@ label {
   margin:0 auto;
 }
 
-.item {
-  flex: 0 32%;
+.box>* {
+  flex: 0 0 32%;
   height: 340px;
-  margin-bottom: 2%; /* (100-32*3)/2 */
+  margin-bottom: 2%; 
+
+}
+
+.box>* .text{
+	   font-family:Montserrat;
+      text-align:center;
+      color:#000000;
+      font-size:20px;
+      font-weight:700;
+	  opacity:0;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  height:340px;
+}
 
 
+.box>*:hover .text{
+	  font-family:Montserrat;
+      text-align:center;
+      color:#ffffff;
+      font-size:20px;
+      font-weight:700;
+	  opacity:1;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+}
+	
+
+
+.box>*:hover {
+	background-color:#000000;
+	opacity:0.9;
+	
+}
+
+
+.border {
+	border:3px solid #ffffff;
+	padding:5px;
+	font-weight:200;
 }
 
 .background1 {
@@ -845,7 +883,29 @@ background-image:url("../images/blacksheepcafe.png");
 background-image:url("../images/massimos.png");
 }
 
+.background4 {
+background-image:url("../images/csh.png");
+}
 
+.background5 {
+background-image:url("../images/petsite.png");
+}
+
+.background6 {
+background-image:url("../images/screenshot.png");
+}
+
+.background7 {
+background-image:url("../images/egwb.png");
+}
+
+.background8 {
+background-image:url("../images/dddma.png");
+}
+
+.background9 {
+background-image:url("../images/restaurant.png");
+}
 .smaller {
 	margin:20px 0;
 }
