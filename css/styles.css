@@ -858,19 +858,30 @@ label {
 	
 
 
-.box>*:hover {
-	background-color:#000000;
-	opacity:0.9;
+ .text::before {
+	content:'';
+    display: block;
+	background: rgba(0, 0, 0, .75);
+	opacity:1;
+	transition:opacity 0.3s;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	margin:auto;
+	z-index:1;
 	
 }
 
 
 .border {
 	border:3px solid #ffffff;
-	padding:5px;
+	padding:10px;
 	font-weight:200;
 	margin-top:20px;
 }
+
 
 .background1 {
 background-image:url("../images/leshommes.png");
