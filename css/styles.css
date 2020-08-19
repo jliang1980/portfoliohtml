@@ -854,25 +854,12 @@ label {
 	  display: flex;
 	  justify-content: center;
 	  align-items: center;
+	  background-color:#000;
+
 }
-	
 
 
- .text::before {
-	content:'';
-    display: block;
-	background: rgba(0, 0, 0, .75);
-	opacity:1;
-	transition:opacity 0.3s;
-	position:absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	margin:auto;
-	z-index:1;
-	
-}
+ 	
 
 
 .border {
@@ -920,6 +907,24 @@ background-image:url("../images/dddma.png");
 .background9 {
 background-image:url("../images/restaurant.png");
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .smaller {
 	margin:20px 0;
 }
